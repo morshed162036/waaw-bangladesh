@@ -1,4 +1,4 @@
-@extends("layout.layout")
+@extends("server.layout.layout")
 @section('css')
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('admin_template/app-assets/vendors/css/vendors.min.css') }}">
@@ -39,7 +39,7 @@
                     <hr>
                 </div>
             </div>
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-xl-2 col-md-4 col-sm-6">
                     <div class="card text-center">
                         <div class="card-content">
@@ -224,7 +224,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </section>
         {{-- <section id="dashboard-analytics">
             <div class="row">

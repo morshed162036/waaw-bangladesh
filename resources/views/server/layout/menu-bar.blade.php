@@ -194,10 +194,11 @@
                                         @endif"
                                         alt="avatar" height="40" width="40"></span>
                             </a>
-                            <div class="dropdown-menu dropdown-menu-right pb-0"><a class="dropdown-item"
+                            <div class="dropdown-menu dropdown-menu-right pb-0">
+                                {{-- <a class="dropdown-item"
                                     href="{{ route('user.edit',Auth::guard('web')->user()->id) }}"><i class="bx bx-user mr-50"></i> Edit Profile</a>
                                     <a class="dropdown-item"
-                                    href="{{ route('user.change-password') }}"><i class="bx bx-message mr-50"></i> Change Password</a>
+                                    href="{{ route('user.change-password') }}"><i class="bx bx-message mr-50"></i> Change Password</a> --}}
                                 <div class="dropdown-divider mb-0"></div><a class="dropdown-item"
                                     href="{{ route('admin.logout') }}"><i class="bx bx-power-off mr-50"></i>
                                     Logout</a>
@@ -233,10 +234,12 @@
                 {{-- @if (Auth::guard('web')->user()->can(''))
                     
                 @endif --}}
-                @canany(['brand.index', 'catalogue.index', 'category.index', 'product.index'])
+                <li class=" navigation-header"><span><a href="{{ route('client.home') }}">Website</a></span>
+                </li>
+                {{-- @canany(['brand.index', 'catalogue.index', 'category.index', 'product.index']) --}}
                     <li class=" navigation-header"><span>Product Section</span>
                     </li>
-                @endcanany
+                {{-- @endcanany --}}
                
                 @can('brand.index')
                     <li class=" nav-item"><a href="{{ route('brand.index') }}"><i class="bx bxl-slack"></i><span class="menu-title">Brand</span></a>
@@ -246,10 +249,10 @@
                     <li class=" nav-item"><a href="{{ route('catalogue.index') }}"><i class="bx bx-building"></i><span class="menu-title">Catalogue</span></a>
                     </li>
                 @endcan
-                @can('category.index')
+                {{-- @can('category.index') --}}
                     <li class=" nav-item"><a href="{{ route('category.index') }}"><i class="bx bxs-categories"></i><span class="menu-title">Categories</span></a>
                     </li>
-                @endcan
+                {{-- @endcan --}}
                 @can('product.index')
                     <li class=" nav-item"><a href="{{ route('product.index') }}"><i class="bx bx-package"></i><span class="menu-title">Product</span></a>
                     </li>
