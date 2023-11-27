@@ -21,6 +21,9 @@ class DatabaseSeeder extends Seeder
         //$this->call(SuperAdminSeeder::class);
         //$this->call(BrandSeeder::class);
         //$this->call(CatalogueSeeder::class);
-        $this->call(CategoriesSeeder::class);
+        //$this->call(CategoriesSeeder::class);
+        //$this->call(AttributeSeeder::class);
+        //$this->call(ProductVariationSeeder::class);
+        $this->call(UnitSeeder::class);
     }
 }

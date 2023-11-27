@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('server.layout.layout')
 
 @section('css')
     <!-- BEGIN: Vendor CSS-->
@@ -66,13 +66,13 @@
                     <div class="card">
                         <div class="card-header">
                             <h5 class="card-title">Product List</h5>
-                            @can('product.create')    
+                            {{-- @can('product.create')     --}}
                                 <div class="heading-elements">
                                     <ul class="list-inline mb-0">
                                         <li class="ml-2"><a href="{{ route('product.create') }}" class="btn btn-primary">+ Create</a></li>
                                     </ul>
                                 </div>
-                            @endcan
+                            {{-- @endcan --}}
                         </div>
                         <div class="card-content">
                             <div class="card-body card-dashboard">
@@ -80,17 +80,22 @@
                                     <table class="table zero-configuration">
                                         <thead>
                                             <tr>
-                                                <th>Image</th>
-                                                <th>Title</th>
+                                                <th>Product Title</th>
+                                                <th>Code</th>
+                                                <th>Unit</th>
                                                 <th>Category</th>
                                                 <th>Catalogue</th>
                                                 <th>Brand</th>
-                                                <th>Type</th>
+                                                <th>Cost Price</th>
+                                                <th>MRP Price</th>
+                                                <th>Has Stock</th>
+                                                <th>View Section</th>
+                                                <th>Photo</th>
                                                 <th>Status</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
-                                        <tbody>
+                                        {{-- <tbody>
                                             @if ($products)
                                                 @foreach ($products as $product)
                                                     <tr>
@@ -134,33 +139,38 @@
                                                                         <a class="dropdown-item"
                                                                         href="{{ route('product.edit', $product->id) }}"><i class="bx bx-edit-alt mr-1"></i> edit</a>
                                                                     @endcan
-                                                                    @can('product.delete')
-                                                                        <form
+                                                                    {{-- @can('product.delete') --}}
+                                                                        {{-- <form
                                                                         action="{{ route('product.destroy', $product->id) }}"
                                                                         method="post"> @csrf @method('Delete')
                                                                         <button type="submit" class="dropdown-item"><i class="bx bx-trash mr-1"></i>delete</button>
-                                                                    </form>
-                                                                    @endcan
+                                                                    </form> --}}
+                                                                    {{-- @endcan --}}
                                                                     
                                                                     
 
-                                                                </div>
+                                                               {{-- </div>
                                                             </div>
                                                         </td>
                                                     </tr>
                                                 @endforeach
-                                            @else
+                                             @else
                                                 {{ 'No Data Found' }}
                                             @endif
-                                        </tbody>
+                                        </tbody> --}}
                                         <tfoot>
                                             <tr>
-                                                <th>Image</th>
-                                                <th>Title</th>
+                                                <th>Product Title</th>
+                                                <th>Code</th>
+                                                <th>Unit</th>
                                                 <th>Category</th>
                                                 <th>Catalogue</th>
                                                 <th>Brand</th>
-                                                <th>Type</th>
+                                                <th>Cost Price</th>
+                                                <th>MRP Price</th>
+                                                <th>Has Stock</th>
+                                                <th>View Section</th>
+                                                <th>Photo</th>
                                                 <th>Status</th>
                                                 <th>Action</th>
                                             </tr>

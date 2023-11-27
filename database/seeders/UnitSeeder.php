@@ -1,19 +1,21 @@
 <?php
 
 namespace Database\Seeders;
-use App\Models\Brand;
+
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-class BrandSeeder extends Seeder
+use App\Models\Unit;
+class UnitSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        $brands = [
-            ['id'=>1,'name'=>'WaaW Bangladesh','description'=>'','address'=>'','image'=>'','status'=>'Active'],
+        $units = [
+            ['id'=>1,'title'=>'piece'],
+            ['id'=>2,'title'=>'box'],
         ];
-        Brand::insert($brands);
+        Unit::insert($units);
     }
 }

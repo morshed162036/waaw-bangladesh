@@ -11,7 +11,7 @@
     {{-- <meta name="keywords" content="admin template, Frest admin template, dashboard template, flat admin template, responsive admin template, web app"> --}}
     {{-- <meta name="author" content="PIXINVENT"> --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title> IEET </title>
+    <title> WAAW Bangladesh </title>
     {{-- <link rel="apple-touch-icon" href="{{ asset('admin_template/app-assets/images/ico/apple-icon-120.png') }}"> --}}
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('client/img/logo/wow-bangladesh.png')}}">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600%7CIBM+Plex+Sans:300,400,500,600,700" rel="stylesheet">

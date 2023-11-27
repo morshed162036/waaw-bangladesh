@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\client\HomeController;
 use App\Http\Controllers\server\AdminController;
 use App\Http\Controllers\server\CategoryController;
+use App\Http\Controllers\server\ProductController;
+use App\Http\Controllers\server\StockController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -44,6 +46,10 @@ Route::prefix('/')->group(function(){
         Route::resource('category', CategoryController::class);
         Route::get('append-categories-level',[CategoryController::class,'appendCategoryLevel'])->name('appendCategory');
         Route::post('update-category-status',[CategoryController::class,'updateCategoryStatus'])->name('updateCategoryStatus');
+
+        Route::resource('product', ProductController::class);
+        Route::post('update-product-status',[ProductController::class,'updateProductStatus'])->name('updateProductStatus');
+        Route::resource('stock', StockController::class);
     });
 
 });

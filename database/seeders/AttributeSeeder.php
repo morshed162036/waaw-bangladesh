@@ -1,19 +1,21 @@
 <?php
 
 namespace Database\Seeders;
-use App\Models\Brand;
+
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-class BrandSeeder extends Seeder
+use App\Models\Attribute;
+class AttributeSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        $brands = [
-            ['id'=>1,'name'=>'WaaW Bangladesh','description'=>'','address'=>'','image'=>'','status'=>'Active'],
+        $attributes = [
+            ['id'=>1,'title'=>'color'],
+            ['id'=>2,'title'=>'size'],
         ];
-        Brand::insert($brands);
+        Attribute::insert($attributes);
     }
 }
