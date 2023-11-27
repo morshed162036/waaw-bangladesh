@@ -1,4 +1,4 @@
-@extends('layout.header')
+@extends('server.layout.header')
 @section('css')
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('admin_template/app-assets/vendors/css/vendors.min.css') }}">
