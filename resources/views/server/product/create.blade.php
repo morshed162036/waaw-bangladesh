@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('server.layout.layout')
 
 @section('css')
     <!-- BEGIN: Vendor CSS-->
@@ -67,25 +67,59 @@
                         <form action="{{ route('product.store') }}" method="post" enctype="multipart/form-data"> @csrf
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-md-10">
+                                    <div class="col-md-6">
                                         <fieldset >
-                                            <h5>Product Title</h5>
+                                            <h5>Product Title <span class="text-danger">*</span></h5>
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text" id="basic-Createon1"><i class="bx bx-file"></i></span>
                                                 </div>
-                                                <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-Createon1" name="title" required>
+                                                <input type="text" class="form-control" placeholder="e.g:Kids Premium Water Bottle Sweet Pink" aria-describedby="basic-Createon1" name="title" required>
                                             </div>
                                         </fieldset>
 
                                         <fieldset class="mt-2">
-                                            <h5>Category</h5>
+                                            <h5>Product Code <span class="text-danger">*</span></h5>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-barcode"></i></span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="Type Product Model" aria-describedby="basic-Createon1" name="code" required>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="mt-2">
+                                            <h5>Weight</h5>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-barcode"></i></span>
+                                                </div>
+                                                <input type="text" class="form-control" placeholder="e.g:100" aria-describedby="basic-Createon1" name="weight">
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="mt-2">
+                                            <h5>Unit <span class="text-danger">*</span></h5>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-purchase-tag-alt"></i></span>
+                                                </div>
+                                                <select name="unit_id" id="" class="form-control" required>
+                                                    <option value="">----select unit-----</option>
+                                                    @if ($units)
+                                                        @foreach ($units as $unit)
+                                                            <option value="{{ $unit->id }}">{{ $unit->title }}</option>
+                                                        @endforeach
+                                                    @endif
+                                                </select>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="mt-2">
+                                            <h5>Category <span class="text-danger">*</span></h5>
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text" id="basic-Createon1"><i class="bx bxs-categories"></i></span>
                                                 </div>
-                                                <select name="category_id" id="category_id" class="form-control">
-                                                    <option value="">select</option>
+                                                <select name="category_id" id="category_id" class="form-control" required>
+                                                    <option value="">----select category-----</option>
                                                     @foreach ($categories as $catalogue)
                                                         <optgroup label="{{ $catalogue['name'] }}"></optgroup>
                                                         @foreach ($catalogue['category'] as $category)
@@ -99,13 +133,13 @@
                                             </div>
                                         </fieldset>  
                                         <fieldset class="mt-2">
-                                            <h5>Brand</h5>
+                                            <h5>Brand <span class="text-danger">*</span></h5>
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text" id="basic-Createon1"><i class="bx bxl-slack"></i></span>
                                                 </div>
-                                                <select name="brand_id" id="" class="form-control">
-                                                    <option value="">select</option>
+                                                <select name="brand_id" id="" class="form-control" required>
+                                                    <option value="">----select brand----</option>
                                                     @foreach ($brands as $brand)
                                                         <option value="{{ $brand['id'] }}">{{ $brand['name'] }}</option>
                                                     @endforeach
@@ -113,12 +147,90 @@
                                             </div>
                                         </fieldset>
                                         <fieldset class="mt-2">
-                                            <h5>Product Code</h5>
+                                            <h5>Has Stock <span class="text-danger">*</span></h5>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-purchase-tag-alt"></i></span>
+                                                </div>
+                                                <select name="has_stock" id="" class="form-control" required>
+                                                    <option value="Yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                </select>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="mt-2">
+                                            <h5>Discount Type</h5>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-purchase-tag-alt"></i></span>
+                                                </div>
+                                                <select name="discount_type" id="" class="form-control">
+                                                    <option value="Not_Apply">Not Apply</option>
+                                                    <option value="Fixed">Fixed</option>
+                                                    <option value="Percentage">Percentage</option>
+                                                </select>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="mt-2">
+                                            <h5>Discount Amount</h5>
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text" id="basic-Createon1"><i class="bx bx-barcode"></i></span>
                                                 </div>
-                                                <input type="text" class="form-control" placeholder="sku" aria-describedby="basic-Createon1" name="product_code" required>
+                                                <input type="number" class="form-control" placeholder="e.g: 100 Blank if no discount" aria-describedby="basic-Createon1" name="discount_amount">
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="mt-2">
+                                            <h5>Cost/Purchase Price <span class="text-danger">*</span></h5>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-barcode"></i></span>
+                                                </div>
+                                                <input type="number" class="form-control" placeholder="100" aria-describedby="basic-Createon1" name="cost" required>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="mt-2">
+                                            <h5>MRP Price <span class="text-danger">*</span></h5>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-barcode"></i></span>
+                                                </div>
+                                                <input type="number" class="form-control" placeholder="150" aria-describedby="basic-Createon1" name="mrp" required>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="mt-2">
+                                            <h5>Stock Size <span class="text-danger">*</span></h5>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-barcode"></i></span>
+                                                </div>
+                                                <input type="number" class="form-control" placeholder="100" aria-describedby="basic-Createon1" name="quantity" required>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="mt-2">
+                                            <h5>Alert Stock <span class="text-danger">*</span></h5>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-barcode"></i></span>
+                                                </div>
+                                                <input type="number" class="form-control" placeholder="25" aria-describedby="basic-Createon1" name="alert_stock" required>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="mt-2">
+                                            <h5>View Section</h5>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-purchase-tag-alt"></i></span>
+                                                </div>
+                                                <select name="view_section" id="" class="form-control" required>
+                                                    <option value="New_Arrival">New Arrival</option>
+                                                    <option value="Feature_Products">Feature Products</option>
+                                                    <option value="Most_Popular">Most Popular</option>
+                                                    <option value="Best_Seller">Best Seller</option>
+                                                    <option value="Flash Sell">Flash Sell</option>
+                                                    <option value="Speacial_Offer">Speacial Offer</option>
+                                                    <option value="Trending_Products">Trending Products</option>
+                                                </select>
                                             </div>
                                         </fieldset>
                                         <fieldset class="mt-2">
@@ -127,21 +239,20 @@
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text" id="basic-Createon1"><i class="bx bx-spreadsheet"></i></span>
                                                 </div>
-                                                <textarea class="form-control" id="basicTextarea" rows="3" placeholder="Textarea" name="description"></textarea>
+                                                <textarea class="form-control" id="basicTextarea" rows="3" placeholder="Product Description" name="description"></textarea>
                                             </div>
                                         </fieldset>
                                         <fieldset class="mt-2">
-                                            <h5>Product Type</h5>
+                                            <h5>Tags (Separated by Comma)</h5>
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-purchase-tag-alt"></i></span>
+                                                    <span class="input-group-text" id="basic-Createon1"><i class="bx bx-spreadsheet"></i></span>
                                                 </div>
-                                                <select name="type" id="" class="form-control" required>
-                                                    <option value="Product">Product</option>
-                                                    <option value="Machine">Machine</option>
-                                                </select>
+                                                <textarea class="form-control" id="basicTextarea" rows="3" placeholder="e.g: popular, hot deals" name="tags"></textarea>
                                             </div>
                                         </fieldset>
+                                        
+                                        
                                         <fieldset class="mt-2">
                                             <h5>Image</h5>
                                             <div class="input-group">
@@ -151,7 +262,7 @@
                                                 <input type="file" class="form-control" aria-describedby="basic-Createon1" name="image" id="image" onchange="loadFile(event)">
                                             </div>
                                         </fieldset>
-                                        <img id="output">
+                                        <img id="output" height="300px" class="mt-2">
                                         <button type="submit" class="btn btn-primary mt-2 btn-lg mx-1">Create</button>
                                     </div>
                                 </div>
