@@ -304,7 +304,7 @@
 
                                     <div class="product_thumb">
                                         <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a> --}}
+                                        {{-- <a class="secondary_img" href="#"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
@@ -331,7 +331,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -342,7 +342,7 @@
 
                                     <div class="product_thumb">
                                         <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories2.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a> --}}
+                                        {{-- <a class="secondary_img" href="#"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
@@ -369,7 +369,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -380,7 +380,7 @@
 
                                     <div class="product_thumb">
                                         <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories3.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a> --}}
+                                        {{-- <a class="secondary_img" href="#"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
@@ -407,7 +407,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -418,7 +418,7 @@
 
                                     <div class="product_thumb">
                                         <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories4.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a> --}}
+                                        {{-- <a class="secondary_img" href="#"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
@@ -445,7 +445,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -456,7 +456,7 @@
 
                                     <div class="product_thumb">
                                         <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories5.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a> --}}
+                                        {{-- <a class="secondary_img" href="#"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
@@ -483,7 +483,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -494,7 +494,7 @@
 
                                     <div class="product_thumb">
                                         <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a> --}}
+                                        {{-- <a class="secondary_img" href="#"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
@@ -521,7 +521,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -563,7 +563,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -639,7 +639,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -677,7 +677,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -715,7 +715,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -753,7 +753,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -795,7 +795,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -832,7 +832,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -870,7 +870,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -908,7 +908,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -946,7 +946,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -984,7 +984,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1026,7 +1026,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1064,7 +1064,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1102,7 +1102,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1140,7 +1140,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1177,7 +1177,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1215,7 +1215,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1306,7 +1306,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1337,7 +1337,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1368,7 +1368,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1399,7 +1399,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1430,7 +1430,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1461,7 +1461,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1500,7 +1500,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1532,7 +1532,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1563,7 +1563,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1595,7 +1595,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1627,7 +1627,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1659,7 +1659,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1697,7 +1697,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1728,7 +1728,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1760,7 +1760,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1792,7 +1792,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1824,7 +1824,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1856,7 +1856,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1893,7 +1893,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1925,7 +1925,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1957,7 +1957,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1989,7 +1989,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2020,7 +2020,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2052,7 +2052,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2132,7 +2132,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2164,7 +2164,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2196,7 +2196,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2228,7 +2228,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2260,7 +2260,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2292,7 +2292,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2328,7 +2328,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2360,7 +2360,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2392,7 +2392,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2424,7 +2424,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2456,7 +2456,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2488,7 +2488,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2524,7 +2524,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2555,7 +2555,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2587,7 +2587,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2619,7 +2619,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2651,7 +2651,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2683,7 +2683,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2719,7 +2719,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2751,7 +2751,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2783,7 +2783,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2815,7 +2815,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2846,7 +2846,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2878,7 +2878,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2955,7 +2955,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2986,7 +2986,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3017,7 +3017,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3048,7 +3048,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3079,7 +3079,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3110,7 +3110,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3146,7 +3146,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3178,7 +3178,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3210,7 +3210,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3242,7 +3242,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3274,7 +3274,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3306,7 +3306,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3342,7 +3342,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3373,7 +3373,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3405,7 +3405,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3437,7 +3437,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3469,7 +3469,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3501,7 +3501,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3537,7 +3537,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3569,7 +3569,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3601,7 +3601,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3633,7 +3633,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3664,7 +3664,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3696,7 +3696,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                            <a href="#" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>

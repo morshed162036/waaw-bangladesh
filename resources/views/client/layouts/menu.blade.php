@@ -19,7 +19,7 @@
                             <ul>
                                 <li><a href="{{ route('login.website') }}">login</a></li>
                                 <li><a href="{{ route('client.wishlist') }}">wishlist</a></li>
-                                <li><a href="{{ route('client.cart') }}">cart</a></li>
+                                <li><a href="{{ route('cart.index') }}">cart</a></li>
                                 <li>Hotline: <a href="tel:+0123456789">0123456789 </a></li>
                                 <li>Quality Guarantee Of Products</li>
                             </ul>
@@ -104,7 +104,7 @@
                                 <ul>
                                     <li><a href="{{ route('login.website') }}">login</a></li>
                                     <li><a href="{{ route('client.wishlist') }}">wishlist</a></li>
-                                    <li><a href="{{ route('client.cart') }}">cart</a></li>
+                                    <li><a href="{{ route('cart.index') }}">cart</a></li>
                                     <li>Hotline: <a href="tel:+0123456789">0123456789 </a></li>
                                     <li>Quality Guarantee Of Products</li>
                                 </ul>
@@ -276,7 +276,7 @@
                     </div>
                     <div class="mini_cart_footer">
                         <div class="cart_button">
-                            <a href="{{route('client.cart')}}">View cart</a>
+                            <a href="{{route('cart.index')}}">View cart</a>
                         </div>
                         <div class="cart_button">
                             <a class="active" href="{{route('client.checkout')}}">Checkout</a>

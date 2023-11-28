@@ -127,7 +127,7 @@ class AdminController extends Controller
     //         else{
     //             return redirect(route('user.change-password'))->with('error','Email Id Not Correct');
     //         }
-           
+
     //     }
     //     return view('payroll.user.change-password');
     // }
