@@ -19,7 +19,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('server.product.index');
+        $products = Product::with('catalogue','category','brand','unit')->get()->all();
+        return view('server.product.index')->with(compact('products'));
     }
 
     /**
@@ -139,6 +140,7 @@ class ProductController extends Controller
             File::delete($exists);
         }
         $product->delete();
+        Stock::where('product_id',$id)->delete();
         return redirect(route('product.index'))->with('success','Product Delete Successfully!');
     }
 

@@ -276,7 +276,7 @@
                     </div>
                     <div class="mini_cart_footer">
                         <div class="cart_button">
-                            <a href="{{route('client.cart')}}">View cart</a>
+                            <a href="{{route('cart.index')}}">View cart</a>
                         </div>
                         <div class="cart_button">
                             <a class="active" href="{{route('client.checkout')}}">Checkout</a>

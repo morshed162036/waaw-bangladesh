@@ -24,6 +24,7 @@
         <div class="container">
             <div class="shopping_cart_area">
                 <form action="#">
+                    @if ($cartItems->Count() > 0)
                     <div class="row">
                         <div class="col-12">
                             <div class="table_desc">
@@ -40,18 +41,21 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
-                                                <td class="product_thumb"><a href="#"><img src="{{asset('client/img/featured-products/product1.jpg')}}" alt=""></a></td>
-                                                <td class="product_name"><a href="#">Handbag fringilla</a></td>
-                                                <td class="product-price">৳65.00</td>
-                                                <td class="product_quantity"><label>Quantity</label> <input min="1" max="100" value="1" type="number"></td>
-                                                <td class="product_total">৳130.00</td>
+                                            @foreach ($cartItems as $item)
+                                                <tr>
+                                                    <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                                    <td class="product_thumb"><a href="{{ route('client.product_details',$item->model->id) }}"><img src="{{asset('images/product_image/'.$item->model->image)}}" alt="{{ $item->model->name }}"></a></td>
+                                                    <td class="product_name"><a href="{{ route('client.product_details',$item->model->id) }}">{{ $item->model->name }}</a></td>
+                                                    <td class="product-price">৳{{ $item->price }}</td>
+                                                    <td class="product_quantity"><label>Quantity</label> <input type="number" name="quantity" min="1" max="100" value="{{ $item->qty }}" type="number"></td>
+                                                    <td class="product_total">৳{{ $item->subtotal() }}</td>
 
 
-                                            </tr>
+                                                </tr>
+                                            @endforeach
+                                            
 
-                                            <tr>
+                                            {{-- <tr>
                                                 <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
                                                 <td class="product_thumb"><a href="#"><img src="{{asset('client/img/featured-products/product2.jpg')}}" alt=""></a></td>
                                                 <td class="product_name"><a href="#">Handbags justo</a></td>
@@ -70,7 +74,7 @@
                                                 <td class="product_total">৳160.00</td>
 
 
-                                            </tr>
+                                            </tr> --}}
 
                                         </tbody>
                                     </table>
@@ -100,17 +104,17 @@
                                     <div class="coupon_inner">
                                         <div class="cart_subtotal">
                                             <p>Subtotal</p>
-                                            <p class="cart_amount">৳215.00</p>
+                                            <p class="cart_amount">৳{{ Cart::instance('cart')->subtotal() }}</p>
                                         </div>
                                         <div class="cart_subtotal ">
                                             <p>Shipping</p>
-                                            <p class="cart_amount"><span>Flat Rate:</span> ৳255.00</p>
+                                            <p class="cart_amount"><span>Flat Rate:</span> ৳{{ Cart::instance('cart')->tax() }}</p>
                                         </div>
-                                        <a href="#">Calculate shipping</a>
+                                        {{-- <a href="#">Calculate shipping</a> --}}
 
                                         <div class="cart_subtotal">
                                             <p>Total</p>
-                                            <p class="cart_amount">৳215.00</p>
+                                            <p class="cart_amount">৳{{ Cart::instance('cart')->total() }}</p>
                                         </div>
                                         <div class="checkout_btn">
                                             <a href="{{ route('client.checkout') }}">Proceed to Checkout</a>
@@ -120,6 +124,15 @@
                             </div>
                         </div>
                     </div>
+                    @else
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h2>Your cary is empty !</h2>
+                                <h5 class="mt-3">Add Items to it now.</h5>
+                                <a href="{{ route('client.shop') }}" class="btn btn-warning mt-5">Shop Now</a>
+                            </div>
+                        </div>
+                    @endif
                     <!--coupon code area end-->
                 </form>
             </div>
