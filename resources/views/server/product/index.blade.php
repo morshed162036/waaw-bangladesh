@@ -89,26 +89,34 @@
                                                 <th>Cost Price</th>
                                                 <th>MRP Price</th>
                                                 <th>Has Stock</th>
+                                                <th>Alert Stock</th>
                                                 <th>View Section</th>
                                                 <th>Photo</th>
                                                 <th>Status</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
-                                        {{-- <tbody>
+                                        <tbody>
                                             @if ($products)
                                                 @foreach ($products as $product)
                                                     <tr>
-                                                        <td>@if ($product->image)
-                                                            
-                                                        <img src="{{ asset('images/product_image/' . $product->image) }}"
-                                                                class="mr-50" alt="logo" height="25" width="35">@endif
-                                                        </td>
-                                                        <td class="text-bold-600">{{ $product->title }}</td>
+                                                        
+                                                        <td class="text-bold-600 text-primary">{{ $product->title }}</td>
+                                                        <td>{{ $product->code }}</td>
+                                                        <td>{{ $product->unit->title }}</td>
                                                         <td>{{ $product->category->name }}</td>
                                                         <td>{{ $product->catalogue->name }}</td>
                                                         <td>{{ $product->brand->name }}</td>
-                                                        <td>{{ $product->type }}</td>
+                                                        <td>{{ $product->cost }}</td>
+                                                        <td>{{ $product->mrp }}</td>
+                                                        <td>{{ $product->has_stock }}</td>
+                                                        <td>{{ $product->alert_stock }}</td>
+                                                        <td>{{ $product->view_section }}</td>
+                                                        <td>@if ($product->image)
+                                                            
+                                                            <img src="{{ asset('images/product_image/' . $product->image) }}"
+                                                                class="mr-50" alt="logo" height="25" width="35">@endif
+                                                        </td>
                                                         <td>
                                                             @if ($product->status == 'Active')
                                                                 <a class="updateProductStatus"
@@ -140,16 +148,16 @@
                                                                         href="{{ route('product.edit', $product->id) }}"><i class="bx bx-edit-alt mr-1"></i> edit</a>
                                                                     @endcan
                                                                     {{-- @can('product.delete') --}}
-                                                                        {{-- <form
+                                                                        <form
                                                                         action="{{ route('product.destroy', $product->id) }}"
                                                                         method="post"> @csrf @method('Delete')
                                                                         <button type="submit" class="dropdown-item"><i class="bx bx-trash mr-1"></i>delete</button>
-                                                                    </form> --}}
+                                                                    </form>
                                                                     {{-- @endcan --}}
                                                                     
                                                                     
 
-                                                               {{-- </div>
+                                                                </div>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -157,7 +165,7 @@
                                              @else
                                                 {{ 'No Data Found' }}
                                             @endif
-                                        </tbody> --}}
+                                        </tbody>
                                         <tfoot>
                                             <tr>
                                                 <th>Product Title</th>
@@ -169,6 +177,7 @@
                                                 <th>Cost Price</th>
                                                 <th>MRP Price</th>
                                                 <th>Has Stock</th>
+                                                <th>Alert Stock</th>
                                                 <th>View Section</th>
                                                 <th>Photo</th>
                                                 <th>Status</th>
