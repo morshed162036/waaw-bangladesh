@@ -218,7 +218,7 @@
                 <li class="nav-item mr-auto"><a class="navbar-brand" href="{{ route('admin.dashboard') }}">
                         <div class="brand-logo"><img class="logo"
                                 src="{{ asset('admin_template/app-assets/images/logo/logo.png') }}" /></div>
-                        <h2 class="brand-text mb-0">IEET</h2>
+                        <h2 class="brand-text mb-0">WAAW Bangladesh</h2>
                     </a></li>
                 <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
                             class="bx bx-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i
@@ -253,10 +253,10 @@
                     <li class=" nav-item"><a href="{{ route('category.index') }}"><i class="bx bxs-categories"></i><span class="menu-title">Categories</span></a>
                     </li>
                 {{-- @endcan --}}
-                @can('product.index')
+                {{-- @can('product.index') --}}
                     <li class=" nav-item"><a href="{{ route('product.index') }}"><i class="bx bx-package"></i><span class="menu-title">Product</span></a>
                     </li>
-                @endcan
+                {{-- @endcan --}}
                 @canany(['supplier.index', 'advance_supplier.index', 'payable_supplier.index'])
                     <li class=" navigation-header"><span>Supplier Management</span>
                     </li>
@@ -303,11 +303,11 @@
                     </li>
                 @endcanany
                 
-                @can('stock.index')
+                {{-- @can('stock.index') --}}
                     <li class=" nav-item"><a href="{{ route('stock.index') }}"><i class="bx bx-store-alt">
                         </i><span class="menu-title">Stock</span></a>
                     </li>
-                @endcan
+                {{-- @endcan --}}
                 @canany(['all_invoice.index', 'product_return_supplier.index'])
                     <li class=" nav-item"><a href="#"><i class="bx bxs-barcode"></i><span class="menu-title">Invoice</span></a>
                         <ul class='menu-content'>
