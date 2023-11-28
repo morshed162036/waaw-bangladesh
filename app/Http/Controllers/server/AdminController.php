@@ -3,9 +3,12 @@
 namespace App\Http\Controllers\server;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Auth;
 use Hash;
+use Illuminate\Support\Facades\Hash as FacadesHash;
+
 class AdminController extends Controller
 {
     /**
@@ -29,7 +32,26 @@ class AdminController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $rules = [
+            'name' => 'required',
+            'email' => 'required',
+        ];
+
+        $this->validate($request, $rules);
+
+        $customer = New User();
+
+        $customer->name = $request-> name;
+        $customer->email = $request-> email;
+        $customer->password = Hash::make($request->password);
+        $customer->phone = $request->phone;
+        $customer->address = $request->address;
+        $customer->type = $request-> type;
+        $customer->status = 'Active';
+        $customer->save();
+
+        return redirect()->back()->with('success', "successfully register");
+
     }
 
     /**
@@ -75,9 +97,18 @@ class AdminController extends Controller
             if(Auth::guard('web')->attempt(['email'=>$data['email'],'password'=>$data['password'],'status'=>'Active','type'=>'Admin'])){
                 return redirect('dashboard');
                 }
-            else{
-                return redirect()->back()->with('error','Invalid Email or Password');
+            // else{
+            //     return redirect()->back()->with('error','Invalid Email or Password');
+            // }
+
+            if (Auth::guard('web')->attempt(['email' => $data['email'], 'password' => $data['password'], 'status' => 'Active', 'type' => 'Customer'])) {
+                // dd('ok');
+                return redirect(route('client.account'));
+            } else {
+                return redirect()->back()->with('error', 'Invalid Email or Password');
             }
+
+
         }
         return view('server.login');
     }

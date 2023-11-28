@@ -28,14 +28,15 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="account_form login">
                             <h2>login</h2>
-                            <form action="#">
+                            <form action="{{ route('admin.login') }}" method="post">
+                                @csrf
                                 <p>
                                     <label>Username or email <span>*</span></label>
-                                    <input type="text">
+                                    <input type="text" name="email">
                                 </p>
                                 <p>
                                     <label>Passwords <span>*</span></label>
-                                    <input type="password">
+                                    <input type="password" name="password">
                                 </p>
                                 <div class="login_submit">
                                     {{--  <a href="#">Lost your password?</a>  --}}
@@ -56,14 +57,29 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="account_form register">
                             <h2>Register</h2>
-                            <form action="#">
-                                <p>
-                                    <label>Email address <span>*</span></label>
-                                    <input type="text">
+                            <form action="{{ route('customer.store') }}" method="POST">
+                                @csrf
+                                <input type="text" hidden name="type" value="Customer">
+                                  <p>
+                                    <label> Name <span>*</span></label>
+                                    <input type="text" name="name" required>
                                 </p>
                                 <p>
+                                    <label>Email address <span>*</span></label>
+                                    <input type="text" name="email" required>
+                                </p>
+
+                                 <p>
+                                    <label>Phone <span>*</span></label>
+                                    <input type="text" name="phone" required>
+                                </p>
+                                <p>
+                                    <label>Address <span>*</span></label>
+                                    <input type="text" name="address" required>
+                                </p>
+                                 <p>
                                     <label>Passwords <span>*</span></label>
-                                    <input type="password">
+                                    <input type="password" name="password" required>
                                 </p>
                                 <div class="login_submit">
                                     <button type="submit">Register</button>

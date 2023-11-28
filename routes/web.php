@@ -33,8 +33,8 @@ Route::get('/my_account', [HomeController::class, 'account'])->name('client.acco
 Route::get('/cart',[CartController::class,"index"])->name('cart.index');
 
 //cartController
-Route::get('/shopingcart', [CartController::class, 'index'])->name('cart.index');
-Route::post('/shopingcart/add', [CartController::class, 'addtocart'])->name('cart.add');
+// Route::get('/shopingcart', [CartController::class, 'index'])->name('cart.index');
+// Route::post('/shopingcart/add', [CartController::class, 'addtocart'])->name('cart.add');
 
 
 // Route::get('/dashboard', function () {
@@ -47,6 +47,8 @@ Route::prefix('/')->group(function(){
     Route::group(['middleware'=>['user']],function(){
 
         Route::get('logout',[AdminController::class,'logout'])->name('admin.logout');
+        Route::get('logout', [AdminController::class, 'logout'])->name('admin.logout');
+        Route::post('register', [AdminController::class, 'store'])->name('customer.store');
         Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
 
         Route::resource('category', CategoryController::class);

@@ -2066,6 +2066,20 @@
             </div>
         </div>
         <!--product area end-->
+
+        {{--  Ads section  --}}
+
+        <section class="ads_area mb-3">
+            <div class="container-fluid">
+                <div class="col-lg-12">
+                    <div class="ads_area_img" style="margin-top: -40px;">
+                      <img src="{{ asset('client/img/logo/ads_1.jpg')}}">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{--  Ads section end  --}}
             <!--product area start-->
         <div class="product_area">
             <div class="container">
