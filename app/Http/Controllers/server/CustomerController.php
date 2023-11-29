@@ -3,7 +3,10 @@
 namespace App\Http\Controllers\server;
 
 use App\Http\Controllers\Controller;
+use App\Models\Customer;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class CustomerController extends Controller
 {
@@ -12,7 +15,8 @@ class CustomerController extends Controller
      */
     public function index()
     {
-        //
+        $customers = Customer::with('user')->get();
+        return view('server.customer.index', compact('customers'));
     }
 
     /**

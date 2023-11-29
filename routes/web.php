@@ -6,6 +6,7 @@ use App\Http\Controllers\client\HomeController;
 use App\Http\Controllers\client\CartController;
 use App\Http\Controllers\server\AdminController;
 use App\Http\Controllers\server\CategoryController;
+use App\Http\Controllers\server\CustomerController;
 use App\Http\Controllers\server\ProductController;
 use App\Http\Controllers\server\StockController;
 /*
@@ -48,7 +49,7 @@ Route::prefix('/')->group(function(){
 
         Route::get('logout',[AdminController::class,'logout'])->name('admin.logout');
         Route::get('logout', [AdminController::class, 'logout'])->name('admin.logout');
-        Route::post('register', [AdminController::class, 'store'])->name('customer.store');
+        Route::post('register', [AdminController::class, 'store'])->name('customer.register');
         Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
 
         Route::resource('category', CategoryController::class);
@@ -58,6 +59,7 @@ Route::prefix('/')->group(function(){
         Route::resource('product', ProductController::class);
         Route::post('update-product-status',[ProductController::class,'updateProductStatus'])->name('updateProductStatus');
         Route::resource('stock', StockController::class);
+        Route::resource('customer', CustomerController::class);
 
 
     });

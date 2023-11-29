@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\server;
 
 use App\Http\Controllers\Controller;
+use App\Models\Customer;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Auth;
@@ -39,18 +40,30 @@ class AdminController extends Controller
 
         $this->validate($request, $rules);
 
-        $customer = New User();
+        $user = New User();
+        $user->name = $request-> name;
+        $user->email = $request-> email;
+        $user->password = Hash::make($request->password);
+        $user->phone = $request->phone;
+        $user->address = $request->address;
+        $user->type = $request-> type;
+        $user->status = 'Active';
+        $user->save();
+        $new_customer = $user->id;
 
-        $customer->name = $request-> name;
-        $customer->email = $request-> email;
-        $customer->password = Hash::make($request->password);
-        $customer->phone = $request->phone;
-        $customer->address = $request->address;
-        $customer->type = $request-> type;
-        $customer->status = 'Active';
+        $customer = new Customer();
+        $customer->user_id = $new_customer;
+        $customer->name = $request->name;
+        // $customer->bod = $request->bod;
+        // $customer->company_name = $request->company_name;
+        // $customer->country = $request->country;
+        // $customer->street_address = $request->street_address;
+        // $customer->street_address = $request->street_address;
+        // $customer->city = $request->$request->city;
         $customer->save();
 
-        return redirect()->back()->with('success', "successfully register");
+
+        return redirect()->back();
 
     }
 

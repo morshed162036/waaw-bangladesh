@@ -57,7 +57,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="account_form register">
                             <h2>Register</h2>
-                            <form action="{{ route('customer.store') }}" method="POST">
+                            <form action="{{ route('customer.register') }}" method="POST">
                                 @csrf
                                 <input type="text" hidden name="type" value="Customer">
                                   <p>
