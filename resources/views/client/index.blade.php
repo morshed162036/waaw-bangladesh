@@ -310,7 +310,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -348,7 +348,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -386,7 +386,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -424,7 +424,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -462,7 +462,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -500,7 +500,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -542,7 +542,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -580,7 +580,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -618,7 +618,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -656,7 +656,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -694,7 +694,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -732,7 +732,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -774,7 +774,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -811,7 +811,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -849,7 +849,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -887,7 +887,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -925,7 +925,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -963,7 +963,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1005,7 +1005,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1043,7 +1043,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1081,7 +1081,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1119,7 +1119,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1156,7 +1156,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1194,7 +1194,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1241,433 +1241,437 @@
                             </div>
                             <div class="product_tab_btn">
                                 <ul class="nav" role="tablist" id="nav-tab3">
-                                    <li>
-                                        <a class="active" data-toggle="tab" href="#Clothing4" role="tab" aria-controls="Clothing4" aria-selected="true">
-                                            Men
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a data-toggle="tab" href="#Consoles4" role="tab" aria-controls="Consoles4" aria-selected="false">
-                                            Women
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a data-toggle="tab" href="#Headphone4" role="tab" aria-controls="Headphone4" aria-selected="false">
-                                            Boy's Collection
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a data-toggle="tab" href="#Tablets4" role="tab" aria-controls="Tablets4" aria-selected="false">
-                                            Girl's Collection
-                                        </a>
-                                    </li>
-                                    {{-- <li>
-                                        <a data-toggle="tab" href="#Tablets4" role="tab" aria-controls="Tablets4" aria-selected="false">
-                                            Mobile & Tablets
-                                        </a>
-                                    </li> --}}
-                                    {{-- <li>
-                                        <a data-toggle="tab" href="#Tablets4" role="tab" aria-controls="Tablets4" aria-selected="false">
-                                            Mobile & Tablets
-                                        </a>
-                                    </li> --}}
+                                @if ($catalogues)
+                                    @foreach ($catalogues as $key => $catalogue)
+                                    @if ($key == 0)
+                                        <li>
+                                            <a class="active" data-toggle="tab" href="#{{ $catalogue->name }}" role="tab" aria-controls="{{ $catalogue->name }}" aria-selected="true">
+                                                {{ $catalogue->name }}
+                                            </a>
+                                        </li>
+                                    @else
+                                        <li>
+                                            <a data-toggle="tab" href="#{{ $catalogue->name }}" role="tab" aria-controls="{{ $catalogue->name }}" aria-selected="false">
+                                                {{ $catalogue->name }}
+                                            </a>
+                                        </li>
+                                    @endif
+
+                                    @endforeach
+                                    @endif
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="tab-content">
-                    {{-- Men section start --}}
-                    <div class="tab-pane fade show active" id="Clothing4" role="tabpanel">
-                        <div class="product_carousel product_style product_column5 owl-carousel">
-                            <article class="single_product">
-                                <figure>
+                    @if ($catalogues)
+                        @foreach ($catalogues as $key => $catalogue)
+                            @if ($key == 0)
+                                {{-- Men section start --}}
+                                <div class="tab-pane fade show active" id="{{ $catalogue->name }}" role="tabpanel">
+                                    <div class="product_carousel product_style product_column5 owl-carousel">
+                                        @if ($new_arrivals)
+                                            @foreach ($new_arrivals as $product)
+                                                @if($product->catalogue_id == $catalogue->id)
+                                                    <article class="single_product">
+                                                        <figure>
 
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product28.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 72.00</span>
-                                                <span class="current_price">৳ 70.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
+                                                            <div class="product_thumb">
+                                                                <a class="primary_img" href="{{route('client.product_details',$product->id)}}"><img src="{{asset('images/product_image/'.$product->image)}}" alt=""></a>
+                                                                {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product28.jpg')}}" alt=""></a> --}}
+                                                                <div class="label_product">
+                                                                    <span class="label_sale">Sale</span>
+                                                                </div>
+                                                                <div class="action_links">
+                                                                    <ul>
+                                                                        <li class="wishlist"><a href="javascript:void(0)" onclick="addProductToWishlist({{ $product->id}},'{{ $product->title}}',1,{{ $product->mrp }})" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                                        <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                                        <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="product_content">
+                                                                <div class="product_content_inner">
+                                                                    <h4 class="product_name"><a href="{{route('client.product_details',$product->id)}}">{{ $product->title }}</a></h4>
+                                                                    <div class="price_box">
+                                                                        {{-- <span class="old_price">৳ 72.00</span> --}}
+                                                                        <span class="current_price">৳ {{ $product->mrp }}</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="add_to_cart">
+                                                                    <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                                </div>
 
-                                    </div>
-                                </figure>
-                            </article>
-                            <article class="single_product">
-                                <figure>
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men2.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product26.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 65.00</span>
-                                                <span class="current_price">৳ 60.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
+                                                            </div>
+                                                        </figure>
+                                                    </article>
+                                                @endif
+                                            @endforeach
+                                        @endif
 
-                                    </div>
-                                </figure>
-                            </article>
-                            <article class="single_product">
-                                <figure>
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men3.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product25.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 80.00</span>
-                                                <span class="current_price">৳ 70.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
 
-                                    </div>
-                                </figure>
-                            </article>
-                            <article class="single_product">
-                                <figure>
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men4.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product23.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 76.00</span>
-                                                <span class="current_price">৳ 75.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
 
-                                    </div>
-                                </figure>
-                            </article>
-                            <article class="single_product">
-                                <figure>
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men5.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product21.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 86.00</span>
-                                                <span class="current_price">৳ 79.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
+                                        <article class="single_product">
+                                            <figure>
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men2.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product26.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 65.00</span>
+                                                            <span class="current_price">৳ 60.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
 
-                                    </div>
-                                </figure>
-                            </article>
-                            <article class="single_product">
-                                <figure>
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men6.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product19.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 82.00</span>
-                                                <span class="current_price">৳ 75.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
+                                                </div>
+                                            </figure>
+                                        </article>
+                                        <article class="single_product">
+                                            <figure>
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men3.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product25.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 80.00</span>
+                                                            <span class="current_price">৳ 70.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
 
-                                    </div>
-                                </figure>
-                            </article>
-                        </div>
-                    </div>
-                    {{-- men section end --}}
+                                                </div>
+                                            </figure>
+                                        </article>
+                                        <article class="single_product">
+                                            <figure>
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men4.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product23.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 76.00</span>
+                                                            <span class="current_price">৳ 75.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
 
-                    {{-- women section start --}}
-                    <div class="tab-pane fade" id="Consoles4" role="tabpanel">
-                        <div class="product_carousel product_style product_column5 owl-carousel">
-                            <article class="single_product">
-                                <figure>
+                                                </div>
+                                            </figure>
+                                        </article>
+                                        <article class="single_product">
+                                            <figure>
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men5.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product21.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 86.00</span>
+                                                            <span class="current_price">৳ 79.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
 
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 72.00</span>
-                                                <span class="current_price">৳ 70.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
+                                                </div>
+                                            </figure>
+                                        </article>
+                                        <article class="single_product">
+                                            <figure>
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men6.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product19.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 82.00</span>
+                                                            <span class="current_price">৳ 75.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
 
+                                                </div>
+                                            </figure>
+                                        </article>
                                     </div>
-                                </figure>
-                            </article>
-                            <article class="single_product">
-                                <figure>
+                                </div>
+                                {{-- men section end --}}
+                            @else
+                                {{-- women section start --}}
+                                <div class="tab-pane fade" id="{{ $catalogue->name }}" role="tabpanel">
+                                    <div class="product_carousel product_style product_column5 owl-carousel">
+                                        <article class="single_product">
+                                            <figure>
 
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women2.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 65.00</span>
-                                                <span class="current_price">৳ 60.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women1.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 72.00</span>
+                                                            <span class="current_price">৳ 70.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
 
-                                    </div>
-                                </figure>
-                            </article>
-                            <article class="single_product">
-                                <figure>
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women3.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 80.00</span>
-                                                <span class="current_price">৳ 70.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
+                                                </div>
+                                            </figure>
+                                        </article>
+                                        <article class="single_product">
+                                            <figure>
 
-                                    </div>
-                                </figure>
-                            </article>
-                            <article class="single_product">
-                                <figure>
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women2.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 65.00</span>
+                                                            <span class="current_price">৳ 60.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
 
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women4.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 76.00</span>
-                                                <span class="current_price">৳ 75.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
+                                                </div>
+                                            </figure>
+                                        </article>
+                                        <article class="single_product">
+                                            <figure>
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women3.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 80.00</span>
+                                                            <span class="current_price">৳ 70.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
 
-                                    </div>
-                                </figure>
-                            </article>
-                            <article class="single_product">
-                                <figure>
+                                                </div>
+                                            </figure>
+                                        </article>
+                                        <article class="single_product">
+                                            <figure>
 
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women5.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 86.00</span>
-                                                <span class="current_price">৳ 79.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women4.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 76.00</span>
+                                                            <span class="current_price">৳ 75.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
 
-                                    </div>
-                                </figure>
-                            </article>
-                            <article class="single_product">
-                                <figure>
+                                                </div>
+                                            </figure>
+                                        </article>
+                                        <article class="single_product">
+                                            <figure>
 
-                                    <div class="product_thumb">
-                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women6.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a> --}}
-                                        <div class="label_product">
-                                            <span class="label_sale">Sale</span>
-                                        </div>
-                                        <div class="action_links">
-                                            <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
-                                                <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
-                                                <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product_content">
-                                        <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
-                                            <div class="price_box">
-                                                <span class="old_price">৳ 82.00</span>
-                                                <span class="current_price">৳ 75.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="add_to_cart">
-                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
-                                        </div>
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women5.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 86.00</span>
+                                                            <span class="current_price">৳ 79.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
 
+                                                </div>
+                                            </figure>
+                                        </article>
+                                        <article class="single_product">
+                                            <figure>
+
+                                                <div class="product_thumb">
+                                                    <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women6.jpg')}}" alt=""></a>
+                                                    {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a> --}}
+                                                    <div class="label_product">
+                                                        <span class="label_sale">Sale</span>
+                                                    </div>
+                                                    <div class="action_links">
+                                                        <ul>
+                                                            <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                            <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
+                                                            <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="product_content">
+                                                    <div class="product_content_inner">
+                                                        <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                                        <div class="price_box">
+                                                            <span class="old_price">৳ 82.00</span>
+                                                            <span class="current_price">৳ 75.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add_to_cart">
+                                                        <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
+                                                    </div>
+
+                                                </div>
+                                            </figure>
+                                        </article>
                                     </div>
-                                </figure>
-                            </article>
-                        </div>
-                    </div>
-                    {{-- women section end --}}
+                                </div>
+                                {{-- women section end --}}
+                            @endif
+
+
+
 
                     <div class="tab-pane fade" id="Headphone4" role="tabpanel">
                         <div class="product_carousel product_style product_column5 owl-carousel">
@@ -1682,7 +1686,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1713,7 +1717,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1745,7 +1749,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1777,7 +1781,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1809,7 +1813,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1841,7 +1845,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1878,7 +1882,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1910,7 +1914,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1942,7 +1946,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1974,7 +1978,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2005,7 +2009,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2037,7 +2041,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2060,6 +2064,8 @@
                             </article>
                         </div>
                     </div>
+                        @endforeach
+                    @endif
 
                 </div>
 
@@ -2117,7 +2123,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2149,7 +2155,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2181,7 +2187,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2213,7 +2219,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2245,7 +2251,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2277,7 +2283,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2313,7 +2319,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2345,7 +2351,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2377,7 +2383,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2409,7 +2415,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2441,7 +2447,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2473,7 +2479,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2509,7 +2515,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2540,7 +2546,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2572,7 +2578,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2604,7 +2610,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2636,7 +2642,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2668,7 +2674,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2704,7 +2710,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2736,7 +2742,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2768,7 +2774,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2800,7 +2806,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2831,7 +2837,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2863,7 +2869,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2940,7 +2946,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2971,7 +2977,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3002,7 +3008,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3033,7 +3039,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3064,7 +3070,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3095,7 +3101,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3131,7 +3137,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3163,7 +3169,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3195,7 +3201,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3227,7 +3233,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3259,7 +3265,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3291,7 +3297,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3327,7 +3333,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3358,7 +3364,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3390,7 +3396,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3422,7 +3428,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3454,7 +3460,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3486,7 +3492,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3522,7 +3528,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3554,7 +3560,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3586,7 +3592,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3618,7 +3624,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3649,7 +3655,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3681,7 +3687,7 @@
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('wishlist.list')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Cart"><i class="ion-ios-cart"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3823,3 +3829,48 @@
 
     </div>
 @endsection
+
+@push('scripts')
+
+    <Script>
+        function addProductToWishlist(id,name,quantity,price)
+        {
+            $.ajax({
+                type:'POST',
+                url:"{{ route('wishlist.store') }}",
+                data:{
+                    "_token":"{{ csrf_token() }}",
+                    id:id,
+                    name:name,
+                    quantity:quantity,
+                    price:price
+                },
+                success:function(data){
+                    if(data.status == 200)
+                    {
+                        getCartWishlistCount();
+                        // $.notify({
+                        //     icon:"fa fa-check",
+                        //     title:"Success!",
+                        //     message:"Item successfully addes to your wishlist!"
+                        // })
+                    }
+                }
+            })
+        }
+        function getCartWishlistCount()
+        {
+            $.ajax({
+                type:"GET",
+                url:"{{ route('cart.wishlist.count') }}",
+                success:function(data){
+                    if(data.status==200)
+                    {
+                        $("#cart_count").html(data.cartCount);
+                        $("#wishlist_count").html(data.wishlistCount);
+                    }
+                }
+            })
+        }
+    </Script>
+@endpush

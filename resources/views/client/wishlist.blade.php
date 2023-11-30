@@ -25,61 +25,63 @@
             <div class="wishlist_area">
                 <div class="wishlist_inner">
                     <form action="#">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="table_desc wishlist">
-                                    <div class="cart_page table-responsive">
-                                        <table>
-                                            <thead>
-                                                <tr>
-                                                    <th class="product_remove">Delete</th>
-                                                    <th class="product_thumb">Image</th>
-                                                    <th class="product_name">Product</th>
-                                                    <th class="product-price">Price</th>
-                                                    <th class="product_quantity">Stock Status</th>
-                                                    <th class="product_total">Add To Cart</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td class="product_remove"><a href="#">X</a></td>
-                                                    <td class="product_thumb"><a href="#"><img src="{{asset('client/img/featured-products/product1.jpg')}}" alt=""></a></td>
-                                                    <td class="product_name"><a href="#">Handbag fringilla</a></td>
-                                                    <td class="product-price">65.00৳</td>
-                                                    <td class="product_quantity">In Stock</td>
-                                                    <td class="product_total"><a href="#">Add To Cart</a></td>
+                        @if ($items->count())
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="table_desc wishlist">
+                                        <div class="cart_page table-responsive">
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <th class="product_remove">Delete</th>
+                                                        <th class="product_thumb">Image</th>
+                                                        <th class="product_name">Product</th>
+                                                        <th class="product-price">Price</th>
+                                                        <th class="product_quantity">Stock Status</th>
+                                                        <th class="product_total">Add To Cart</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach ($items as $item)
+                                                        <tr>
+                                                            <td class="product_remove"><a href="javascript:void(0)" onclick="removeFromWishlist('{{ $item->rowId }}')">X</a></td>
+                                                            <td class="product_thumb"><a href="{{ route('client.product_details',$item->model->id) }}"><img src="{{asset('images/product_image/'.$item->model->image)}}" alt=""></a></td>
+                                                            <td class="product_name"><a href="{{ route('client.product_details',$item->model->id) }}">{{ $item->model->title }}</a></td>
+                                                            <td class="product-price">{{ $item->model->mrp }}৳</td>
+                                                            <td class="product_quantity">
+                                                                @if ($item->model->has_stock == "Yes")
+                                                                In Stock
+                                                                @else
+                                                                Stock Out
+                                                                @endif
+                                                            </td>
+                                                            <td class="product_total"><a href="javascript:void(0)" onclick="moveToCart('{{ $item->rowId }}')">Add To Cart</a></td>
 
+                                                        </tr>
+                                                    @endforeach
 
-                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
 
-                                                <tr>
-                                                    <td class="product_remove"><a href="#">X</a></td>
-                                                    <td class="product_thumb"><a href="#"><img src="{{asset('client/img/featured-products/product2.jpg')}}" alt=""></a></td>
-                                                    <td class="product_name"><a href="#">Handbags justo</a></td>
-                                                    <td class="product-price">90.00৳</td>
-                                                    <td class="product_quantity">In Stock</td>
-                                                    <td class="product_total"><a href="#">Add To Cart</a></td>
-
-
-                                                </tr>
-                                                <tr>
-                                                    <td class="product_remove"><a href="#">X</a></td>
-                                                    <td class="product_thumb"><a href="#"><img src="{{asset('client/img/featured-products/product3.jpg')}}" alt=""></a></td>
-                                                    <td class="product_name"><a href="#">Handbag elit</a></td>
-                                                    <td class="product-price">80.00৳</td>
-                                                    <td class="product_quantity">In Stock</td>
-                                                    <td class="product_total"><a href="#">Add To Cart</a></td>
-
-
-                                                </tr>
-
-                                            </tbody>
-                                        </table>
                                     </div>
-
                                 </div>
                             </div>
-                        </div>
+                            <div class="row">
+                                <div class="col-md-12 text-end">
+                                    <a href="javascript:void(0)" onclick="clearWishlist()">Clear All Items</a>
+                                </div>
+                            </div>
+                        @else
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <h2>Your wishlist is empty !</h2>
+                                    <h5 class="mt-3">Add items to it now.</h5>
+                                    <a href="{{ route('client.shop') }}" class="btn btn-warning mt-5">Shop Now</a>
+                                </div>
+                            </div>
+                        @endif
+
                     </form>
                 </div>
                 {{-- <div class="row">
@@ -102,5 +104,40 @@
 
 
     <!--wishlist area end -->
+    <form id="deletedFromWishlist" action="{{ route('wishlist.remove') }}" method="POST">
+        @csrf
+        @method('delete')
+        <input type="hidden" name="rowId" id="rowId">
+    </form>
+
+    <form id="clearWishlist" action="{{ route('wishlist.clear') }}" method="post">
+        @csrf
+        @method('delete')
+    </form>
+
+    <form id="moveToCart" action="{{ route('wishlist.move.to.cart') }}" method="post">
+        @csrf
+        <input type="hidden" name="rowId" id="mrowId">
+    </form>
 
 @endsection
+
+@push('scripts')
+    <script>
+        function removeFromWishlist(rowId)
+        {
+            $("#rowId").val(rowId);
+            $("#deletedFromWishlist").submit();
+        }
+
+        function clearWishlist()
+        {
+            $("#clearWishlist").submit();
+        }
+        function moveToCart(rowId)
+        {
+            $("#mrowId").val(rowId);
+            $("#moveToCart").submit();
+        }
+    </script>
+@endpush
