@@ -64,7 +64,10 @@
                         </div>
                         <div class="col-lg-7 col-md-6">
                             <div class="product_d_right">
-                                <form action="#">
+                                <form action="{{ route('cart.add') }}" method="post" enctype="multipart/form-data">
+                                    @csrf
+                                  <input type="hidden" name="product_id" value="">
+
 
                                     <h3><a href="#">Nonstick Dishwasher PFOA</a></h3>
                                     {{--  <div class="product_nav">

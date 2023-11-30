@@ -6,6 +6,7 @@ use App\Http\Controllers\client\HomeController;
 use App\Http\Controllers\client\CartController;
 use App\Http\Controllers\server\AdminController;
 use App\Http\Controllers\server\CategoryController;
+use App\Http\Controllers\server\CustomerController;
 use App\Http\Controllers\server\ProductController;
 use App\Http\Controllers\server\StockController;
 /*
@@ -32,6 +33,10 @@ Route::get('/user_login', [HomeController::class, 'login_website'])->name('login
 Route::get('/my_account', [HomeController::class, 'account'])->name('client.account');
 Route::get('/cart',[CartController::class,"index"])->name('cart.index');
 
+//cartController
+// Route::get('/shopingcart', [CartController::class, 'index'])->name('cart.index');
+// Route::post('/shopingcart/add', [CartController::class, 'addtocart'])->name('cart.add');
+
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
@@ -41,8 +46,10 @@ Route::prefix('/')->group(function(){
 
     Route::match(['get', 'post'], 'login',[AdminController::class,'login'])->name('admin.login');
     Route::group(['middleware'=>['user']],function(){
-      
+
         Route::get('logout',[AdminController::class,'logout'])->name('admin.logout');
+        Route::get('logout', [AdminController::class, 'logout'])->name('admin.logout');
+        Route::post('register', [AdminController::class, 'store'])->name('customer.register');
         Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
 
         Route::resource('category', CategoryController::class);
@@ -52,8 +59,9 @@ Route::prefix('/')->group(function(){
         Route::resource('product', ProductController::class);
         Route::post('update-product-status',[ProductController::class,'updateProductStatus'])->name('updateProductStatus');
         Route::resource('stock', StockController::class);
+        Route::resource('customer', CustomerController::class);
 
-        
+
     });
 
 });

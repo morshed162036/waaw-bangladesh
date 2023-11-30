@@ -53,7 +53,7 @@
 
                                                 </tr>
                                             @endforeach
-                                            
+
 
                                             {{-- <tr>
                                                 <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>

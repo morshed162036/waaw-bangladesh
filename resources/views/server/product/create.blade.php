@@ -24,6 +24,13 @@
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('admin_template/assets/css/style.css') }}">
     <!-- END: Custom CSS-->
+
+    <script src="https://cdn.ckeditor.com/ckeditor5/40.0.0/classic/ckeditor.js"></script>
+    <style>
+        .ck-editor__editable_inline{
+            height: 100px;
+        }
+    </style>
 @endsection
 
 @section('content')
@@ -126,12 +133,12 @@
                                                             <option value="{{ $category['id'] }}">&nbsp;&nbsp;&nbsp;--&nbsp;{{ $category['name'] }}</option>
                                                             @foreach ($category['subcategories'] as $subcategories)
                                                                 <option value="{{ $subcategories['id'] }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---&nbsp;{{ $subcategories['name'] }}</option>
-                                                            @endforeach 
+                                                            @endforeach
                                                         @endforeach
                                                     @endforeach
                                                 </select>
                                             </div>
-                                        </fieldset>  
+                                        </fieldset>
                                         <fieldset class="mt-2">
                                             <h5>Brand <span class="text-danger">*</span></h5>
                                             <div class="input-group">
@@ -243,6 +250,10 @@
                                             </div>
                                         </fieldset>
                                         <fieldset class="mt-2">
+                                            <h5>product Description <span class="star">*</span></h5>
+                                            <textarea name="details_description" id="description"></textarea>
+                                        </fieldset>
+                                       <fieldset class="mt-2">
                                             <h5>Tags (Separated by Comma)</h5>
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
@@ -251,8 +262,8 @@
                                                 <textarea class="form-control" id="basicTextarea" rows="3" placeholder="e.g: popular, hot deals" name="tags"></textarea>
                                             </div>
                                         </fieldset>
-                                        
-                                        
+
+
                                         <fieldset class="mt-2">
                                             <h5>Image</h5>
                                             <div class="input-group">
@@ -304,6 +315,22 @@
     <!-- BEGIN: Page JS-->
     <script src="{{ asset('admin_template/app-assets/js/scripts/pages/table-extended.js')}}"></script>
     <!-- END: Page JS-->
+
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#description' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#our_plan' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+
     <script>
         var loadFile = function(event) {
             var output = document.getElementById('output');

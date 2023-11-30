@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\client;
 
 use App\Http\Controllers\Controller;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -12,7 +13,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('client.index');
+        $trendingProducts = Product::with(['unit', 'catalogue', 'category', 'brand'])->where('view_section', 'Trending_Products')->where('status', 'Active')->orderBy('created_at', 'desc')->limit(10)->get();
+
+        return view('client.index', compact('trendingProducts'));
     }
 
     public function about()

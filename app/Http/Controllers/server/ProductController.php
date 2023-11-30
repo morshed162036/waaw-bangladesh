@@ -67,13 +67,14 @@ class ProductController extends Controller
         {
             $product->discount_amount = $request->discount_amount;
         }
-        
+
         $product->cost = $request->cost;
         $product->mrp = $request->mrp;
         $product->alert_stock = $request->alert_stock;
         $product->tags = $request->tags;
         $product->view_section = $request->view_section;
         $product->description = $request->description;
+        $product->details_description = $request->details_description;
 
         if($request->hasFile('image')){
             $image_temp = $request->file('image');
@@ -96,7 +97,7 @@ class ProductController extends Controller
             if($request->stock)
             {
                 $product_stock->quantity = $request->stock;
-            }    
+            }
             $product_stock->product_id = $last;
             $product_stock->alert_stock = $request->alert_stock;;
             $product_stock->save();
