@@ -12,10 +12,10 @@
                         <div class="canvas_close">
                             <a href="javascript:void(0)"><i class="ion-android-close"></i></a>
                         </div>
-                        <div class="antomi_message">
+                        {{--  <div class="antomi_message">
                             <p>Step into  the festival season with wawa Bangladesh</p>
-                        </div>
-                        <div class="header_top_settings text-end">
+                        </div>  --}}
+                        {{--  <div class="header_top_settings text-end">
                             <ul>
                                 <li><a href="{{ route('login.website') }}">login</a></li>
                                 <li><a href="{{ route('wishlist.list') }}">wishlist</a></li>
@@ -23,7 +23,7 @@
                                 <li>Hotline: <a href="tel:+0123456789">0123456789 </a></li>
                                 <li>Quality Guarantee Of Products</li>
                             </ul>
-                        </div>
+                        </div>  --}}
                         <div class="search_container">
                             <form action="#">
                                 {{--  <div class="hover_category">

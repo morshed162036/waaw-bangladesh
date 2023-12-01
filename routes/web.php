@@ -8,6 +8,7 @@ use App\Http\Controllers\client\WishlistController;
 
 use App\Http\Controllers\server\AdminController;
 use App\Http\Controllers\server\CategoryController;
+use App\Http\Controllers\server\CustomerController;
 use App\Http\Controllers\server\ProductController;
 use App\Http\Controllers\server\StockController;
 /*
@@ -44,17 +45,14 @@ Route::delete('/wishlist/remove',[WishlistController::class,"removeProductFromwi
 Route::delete('/wishlist/clear',[WishlistController::class,"clearWishlist"])->name('wishlist.clear');
 Route::post('/wishlist/clear',[WishlistController::class,'moveToCart'])->name('wishlist.move.to.cart');
 
-
-// Route::get('/dashboard', function () {
-//     return view('dashboard');
-// })->middleware(['auth', 'verified'])->name('dashboard');
-
 Route::prefix('/')->group(function(){
 
     Route::match(['get', 'post'], 'login',[AdminController::class,'login'])->name('admin.login');
     Route::group(['middleware'=>['user']],function(){
 
         Route::get('logout',[AdminController::class,'logout'])->name('admin.logout');
+        Route::get('logout', [AdminController::class, 'logout'])->name('admin.logout');
+        Route::post('register', [AdminController::class, 'store'])->name('customer.register');
         Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
 
         Route::resource('category', CategoryController::class);
@@ -64,8 +62,7 @@ Route::prefix('/')->group(function(){
         Route::resource('product', ProductController::class);
         Route::post('update-product-status',[ProductController::class,'updateProductStatus'])->name('updateProductStatus');
         Route::resource('stock', StockController::class);
-
-
+        Route::resource('customer', CustomerController::class);
     });
 
 });

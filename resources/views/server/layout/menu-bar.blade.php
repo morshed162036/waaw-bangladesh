@@ -217,8 +217,8 @@
             <ul class="nav navbar-nav flex-row">
                 <li class="nav-item mr-auto"><a class="navbar-brand" href="{{ route('admin.dashboard') }}">
                         <div class="brand-logo"><img class="logo"
-                                src="{{ asset('admin_template/app-assets/images/logo/logo.png') }}" /></div>
-                        <h2 class="brand-text mb-0">WAAW Bangladesh</h2>
+                                src="{{ asset('client/img/logo/update.png') }}" /></div>
+                        {{--  <h2 class="brand-text mb-0">WAAW Banglades</h2>  --}}
                     </a></li>
                 <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
                             class="bx bx-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i
@@ -232,7 +232,7 @@
                 data-icon-style="">
 
                 {{-- @if (Auth::guard('web')->user()->can(''))
-                    
+
                 @endif --}}
                 <li class=" navigation-header"><span><a href="{{ route('client.home') }}">Website</a></span>
                 </li>
@@ -240,7 +240,7 @@
                     <li class=" navigation-header"><span>Product Section</span>
                     </li>
                 {{-- @endcanany --}}
-               
+
                 @can('brand.index')
                     <li class=" nav-item"><a href="{{ route('brand.index') }}"><i class="bx bxl-slack"></i><span class="menu-title">Brand</span></a>
                     </li>
@@ -261,7 +261,7 @@
                     <li class=" navigation-header"><span>Supplier Management</span>
                     </li>
                 @endcanany
-                
+
                 @can('supplier.index')
                     <li class=" nav-item"><a href="{{ route('supplier.index') }}"><i class="bx bx-user"></i><span class="menu-title">Supplier</span></a>
                     </li>
@@ -274,13 +274,13 @@
                     <li class=" nav-item"><a href="{{ route('supplier.payable') }}"><i class="bx bx-archive-out"></i><span class="menu-title">Payable Supplier</span></a>
                     </li>
                 @endcan
-                
-                
+
+
                 @canany(['client.index', 'advance_client.index', 'payable_client.index'])
                     <li class=" navigation-header"><span>Client Management</span>
                     </li>
                 @endcanany
-                
+
                 @can('client.index')
                     <li class=" nav-item"><a href="{{ route('client.index') }}"><i class="bx bx-user"></i><span
                         class="menu-title">Client</span></a>
@@ -295,19 +295,26 @@
                     </li>
                 @endcan
 
-                
-               
+
+
 
                 @canany(['stock.index', 'all_invoice.index', 'purchase_invoice.index', 'sale_invoice.index', 'project_invoice.index'])
                     <li class=" navigation-header"><span>Inventory Management</span>
                     </li>
                 @endcanany
-                
+
                 {{-- @can('stock.index') --}}
                     <li class=" nav-item"><a href="{{ route('stock.index') }}"><i class="bx bx-store-alt">
                         </i><span class="menu-title">Stock</span></a>
                     </li>
                 {{-- @endcan --}}
+
+                {{-- @can('stock.index') --}}
+                    <li class=" nav-item"><a href="{{ route('customer.index') }}"><i class="bx bx-store-alt">
+                        </i><span class="menu-title">customer</span></a>
+                    </li>
+                {{-- @endcan --}}
+
                 @canany(['all_invoice.index', 'product_return_supplier.index'])
                     <li class=" nav-item"><a href="#"><i class="bx bxs-barcode"></i><span class="menu-title">Invoice</span></a>
                         <ul class='menu-content'>
@@ -326,7 +333,7 @@
                             @can('project_invoice.index')
                                 <li><a href="{{ route('project_index') }}"><i class="bx bx-receipt"></i><span class="menu-item" data-i18n="LivIcons">Project Invoice</span></a>
                                 </li>
-                            @endcan  
+                            @endcan
                         </ul>
                     </li>
                 @endcanany
@@ -334,7 +341,7 @@
                     <li class=" navigation-header"><span>Damage and Return Product</span>
                     </li>
                 @endcanany
-                
+
                 @can('product_return_client.index')
                     <li class=" nav-item"><a href="{{ route('client-return-product.index') }}"><i class="bx bx-user">
                         </i><span class="menu-title">Client</span></a>
@@ -345,8 +352,8 @@
                         </i><span class="menu-title">Supplier</span></a>
                     </li>
                 @endcan
-                
-               
+
+
                 {{-- <li class=" nav-item"><a href="#"><i class="bx bx-envelope"></i><span
                             class="menu-title">Invoice</span></a>
                             <ul class='menu-content'>
@@ -379,8 +386,8 @@
                                     <li><a href="{{ route('team-members.index') }}"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="LivIcons">Team Members</span></a>
                                     </li>
                                 @endcan
-                            
-                            
+
+
                             </ul>
                         </li>
                     @endcanany
@@ -415,11 +422,11 @@
                         </li>
                     @endcanany
                 @endcanany
-               
+
                 @canany(['accounts_group.index', 'chart_of_account.index', 'general_ledger.index'])
-        
+
                     <li class=" navigation-header"><span>Accounts</span></li>
-                    
+
                     @can('accounts_group.index')
                         <li class=" nav-item"><a href="{{ route('accounts.index') }}"><i class="bx bx-list-ul"></i><span class="menu-title">Accounts Groups</span></a>
                         </li>
@@ -433,8 +440,8 @@
                         </li>
                     @endcan
                 @endcanany
-                
-                
+
+
                 @canany(['salary_sheet.create', 'salary_sheet.index'])
                     <li class=" navigation-header"><span>Payroll</span>
                     </li>
@@ -458,7 +465,7 @@
                 @canany(['designation.index', 'benefit.index', 'user.index', 'user_role.index'])
                     <li class=" navigation-header"><span>Role Management</span>
                     </li>
-                    @can('designation.index')    
+                    @can('designation.index')
                         <li class=" nav-item"><a href="{{ route('designation.index') }}"><i class="bx bx-id-card"></i><span class="menu-title" data-i18n="Colors">Designation</span></a>
                         </li>
                     @endcan
@@ -466,7 +473,7 @@
                         <li class=" nav-item"><a href="{{ route('benefits.index') }}"><i class="bx bx-user-plus"></i><span class="menu-title" data-i18n="Colors">Benefits</span></a>
                         </li>
                     @endcan
-                    
+
                     @can('user.index')
                         <li class=" nav-item"><a href="{{ route('user.index') }}"><i class="bx bx-user-circle"></i><span class="menu-title" data-i18n="Colors">Employee</span></a>
                         </li>
@@ -494,7 +501,7 @@
                                     <li><a href="{{ route('payment-transfer.index') }}"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="boxicons">Transfer Balance</span></a>
                                     </li>
                                 @endcan
-                                
+
 
                                 {{-- <li><a href="{{ route('transection-history.index') }}"><i
                                             class="bx bx-right-arrow-alt"></i><span class="menu-item"

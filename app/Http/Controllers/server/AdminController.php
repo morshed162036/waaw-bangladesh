@@ -3,9 +3,13 @@
 namespace App\Http\Controllers\server;
 
 use App\Http\Controllers\Controller;
+use App\Models\Customer;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Auth;
 use Hash;
+use Illuminate\Support\Facades\Hash as FacadesHash;
+
 class AdminController extends Controller
 {
     /**
@@ -29,7 +33,38 @@ class AdminController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $rules = [
+            'name' => 'required',
+            'email' => 'required',
+        ];
+
+        $this->validate($request, $rules);
+
+        $user = New User();
+        $user->name = $request-> name;
+        $user->email = $request-> email;
+        $user->password = Hash::make($request->password);
+        $user->phone = $request->phone;
+        $user->address = $request->address;
+        $user->type = $request-> type;
+        $user->status = 'Active';
+        $user->save();
+        $new_customer = $user->id;
+
+        $customer = new Customer();
+        $customer->user_id = $new_customer;
+        $customer->name = $request->name;
+        // $customer->bod = $request->bod;
+        // $customer->company_name = $request->company_name;
+        // $customer->country = $request->country;
+        // $customer->street_address = $request->street_address;
+        // $customer->street_address = $request->street_address;
+        // $customer->city = $request->$request->city;
+        $customer->save();
+
+
+        return redirect()->back();
+
     }
 
     /**
@@ -75,9 +110,18 @@ class AdminController extends Controller
             if(Auth::guard('web')->attempt(['email'=>$data['email'],'password'=>$data['password'],'status'=>'Active','type'=>'Admin'])){
                 return redirect('dashboard');
                 }
-            else{
-                return redirect()->back()->with('error','Invalid Email or Password');
+            // else{
+            //     return redirect()->back()->with('error','Invalid Email or Password');
+            // }
+
+            if (Auth::guard('web')->attempt(['email' => $data['email'], 'password' => $data['password'], 'status' => 'Active', 'type' => 'Customer'])) {
+                // dd('ok');
+                return redirect(route('client.account'));
+            } else {
+                return redirect()->back()->with('error', 'Invalid Email or Password');
             }
+
+
         }
         return view('server.login');
     }
@@ -127,7 +171,7 @@ class AdminController extends Controller
     //         else{
     //             return redirect(route('user.change-password'))->with('error','Email Id Not Correct');
     //         }
-           
+
     //     }
     //     return view('payroll.user.change-password');
     // }
