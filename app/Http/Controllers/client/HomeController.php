@@ -5,7 +5,9 @@ namespace App\Http\Controllers\client;
 use App\Http\Controllers\Controller;
 use App\Models\Product;
 use Illuminate\Http\Request;
-
+use App\Models\Product;
+use App\Models\Catalogue;
+use Cart;
 class HomeController extends Controller
 {
     /**
@@ -13,9 +15,13 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $catalogues = Catalogue::where('status','Active')->get()->all();
+        $new_arrivals = Product::with('stock','catalogue')->where('view_section','New_Arrival')->get()->all();
+        return view('client.index')->with(compact('new_arrivals','catalogues','trendingProducts'));
+
         $trendingProducts = Product::with(['unit', 'catalogue', 'category', 'brand'])->where('view_section', 'Trending_Products')->where('status', 'Active')->orderBy('created_at', 'desc')->limit(10)->get();
 
-        return view('client.index', compact('trendingProducts'));
+        
     }
 
     public function about()
@@ -37,14 +43,16 @@ class HomeController extends Controller
         return view('client.shop');
     }
 
-    public function product_details()
+    public function product_details(string $id)
     {
-        return view('client.product_details');
+        $product = Product::with('category')->findorFail($id);
+        return view('client.product_details')->with(compact('product'));
     }
 
     public function wishlist()
     {
-        return view('client.wishlist');
+        // return view('client.wishlist');
+        return redirect()->route("wishlist.list");
     }
 
     public function cart()
@@ -60,6 +68,12 @@ class HomeController extends Controller
     public function contuct()
     {
         return view('client.contuct');
+    }
+    public function getCartAndWishlistCount()
+    {
+        $cartCount = Cart::instance("cart")->content()->count();
+        $wishlistCount = Cart::instance("wishlist")->content()->count();
+        return response()->json(['status'=>200,'cartCount'=>$cartCount,'wishlistCount'=>$wishlistCount]);
     }
 
 

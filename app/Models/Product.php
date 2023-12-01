@@ -8,6 +8,7 @@ use App\Models\Catalogue;
 use App\Models\Category;
 use App\Models\Brand;
 use App\Models\Unit;
+use App\Models\Stock;
 class Product extends Model
 {
     use HasFactory;
@@ -22,5 +23,8 @@ class Product extends Model
     }
     public function unit(){
         return $this->belongsTo(Unit::class,'unit_id');
+    }
+    public function stock(){
+        return $this->hasOne(Stock::class,'product_id');
     }
 }

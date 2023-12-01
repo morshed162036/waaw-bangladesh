@@ -10,7 +10,7 @@
                     <div class="breadcrumb_content">
                         <ul>
                             <li><a href="{{route('client.home')}}">home</a></li>
-                            <li>product details</li>
+                            <li>Product Details</li>
                         </ul>
                     </div>
                 </div>
@@ -22,6 +22,7 @@
     <div class="product_page_bg">
         <div class="container">
             <div class="product_details_wrapper mb-55">
+                @if($product)
                 <!--product details start-->
                 <div class="product_details">
                     <div class="row">
@@ -29,32 +30,32 @@
                             <div class="product-details-tab">
                                 <div id="img-1" class="zoomWrapper single-zoom">
                                     <a href="#">
-                                        <img id="zoom1" src="{{asset('client/img/product/product-category/product1.jpg')}}" data-zoom-image="{{asset('client/img/product/product-category/product1.jpg')}}" alt="big-1">
+                                        <img id="zoom1" src="{{asset('images/product_image/'.$product->image)}}" data-zoom-image="{{asset('images/product_image/'.$product->image)}}" alt="big-1">
                                     </a>
                                 </div>
                                 <div class="single-zoom-thumb" >
                                     <ul class="s-tab-zoom owl-carousel single-product-active" id="gallery_01" >
                                         <li>
                                             <a href="#" class="elevatezoom-gallery active" data-update="" data-image="assets/img/product/productbig4.jpg" data-zoom-image="assets/img/product/productbig4.jpg">
-                                                <img src="{{asset('client/img/product/product-category/product1.jpg')}}" alt="zo-th-1" />
+                                                <img src="{{asset('images/product_image/'.$product->image)}}" alt="zo-th-1" />
                                             </a>
 
                                         </li>
                                         <li>
                                             <a href="#" class="elevatezoom-gallery active" data-update="" data-image="assets/img/product/productbig1.jpg" data-zoom-image="assets/img/product/productbig1.jpg">
-                                                <img src="{{asset('client/img/product/product-category/product1.jpg')}}" alt="zo-th-1" />
+                                                <img src="{{asset('images/product_image/'.$product->image)}}" alt="zo-th-1" />
                                             </a>
 
                                         </li>
                                         <li>
                                             <a href="#" class="elevatezoom-gallery active" data-update="" data-image="assets/img/product/productbig2.jpg" data-zoom-image="assets/img/product/productbig2.jpg">
-                                                <img src="{{asset('client/img/product/product-category/product1.jpg')}}" alt="zo-th-1" />
+                                                <img src="{{asset('images/product_image/'.$product->image)}}" alt="zo-th-1" />
                                             </a>
 
                                         </li>
                                         <li>
                                             <a href="#" class="elevatezoom-gallery active" data-update="" data-image="assets/img/product/productbig3.jpg" data-zoom-image="assets/img/product/productbig3.jpg">
-                                                <img src="{{asset('client/img/product/product-category/product1.jpg')}}" alt="zo-th-1" />
+                                                <img src="{{asset('images/product_image/'.$product->image)}}" alt="zo-th-1" />
                                             </a>
 
                                         </li>
@@ -64,11 +65,8 @@
                         </div>
                         <div class="col-lg-7 col-md-6">
                             <div class="product_d_right">
-                                <form action="{{ route('cart.add') }}" method="post" enctype="multipart/form-data">
+                                <form action="{{ route('cart.store') }}" id="addtocart" method="post">
                                     @csrf
-                                  <input type="hidden" name="product_id" value="">
-
-
                                     <h3><a href="#">Nonstick Dishwasher PFOA</a></h3>
                                     {{--  <div class="product_nav">
                                         <ul>
@@ -83,15 +81,15 @@
                                             <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
                                             <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
                                             <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
-                                            <li class="review"><a href="#">(1 customer review )</a></li>
+                                            <li class="review"><a href="#">(0 customer review )</a></li>
                                         </ul>
                                     </div>
                                     <div class="price_box">
-                                        <span class="old_price">৳80.00</span>
-                                        <span class="current_price">৳70.00</span>
+                                        {{-- <span class="old_price">৳80.00</span> --}}
+                                        <span class="current_price">৳{{ $product->mrp }}</span>
                                     </div>
                                     <div class="product_desc">
-                                        <p>eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in </p>
+                                        <p>{{ $product->description }}</p>
                                     </div>
                                     <div class="product_variant color">
                                         <h3>Available Options</h3>
@@ -116,7 +114,8 @@
                                     </div>
                                     <div class="product_variant quantity">
                                         <label>quantity</label>
-                                        <input min="1" max="100" value="1" type="number">
+                                        <input min="1" max="100" value="1" type="number" name="quantity">
+                                        <input type="hidden" name="id" value="{{ $product->id }}">
                                         <button class="button" type="submit">add to cart</button>
 
                                     </div>
@@ -129,7 +128,7 @@
                                 </form>
                                 <div class="product_d_meta">
                                     {{--  <span>SKU: N/A</span>  --}}
-                                    <span>Category: <a href="#">Clothings</a></span>
+                                    <span>Category: <a href="#">{{ $product->category->name }}</a></span>
                                     {{--  <span>Tags:
                                         <a href="#">Creams</a>
                                         <a href="#">Lotions</a>
@@ -165,7 +164,7 @@
                                             <a data-toggle="tab" href="#sheet" role="tab" aria-controls="sheet" aria-selected="false">Specification</a>
                                         </li>  --}}
                                         <li>
-                                            <a data-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Reviews (1)</a>
+                                            <a data-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Reviews</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -202,7 +201,7 @@
                                         </div>
                                     </div>  --}}
 
-                                    <div class="tab-pane fade" id="reviews" role="tabpanel">
+                                    {{-- <div class="tab-pane fade" id="reviews" role="tabpanel">
                                         <div class="reviews_wrapper">
                                             <h2>1 review for Donec eu furniture</h2>
                                             <div class="reviews_comment_box">
@@ -226,10 +225,6 @@
                                                 </div>
 
                                             </div>
-                                            {{--  <div class="comment_title">
-                                                <h2>Add a review </h2>
-                                                <p>Your email address will not be published. Required fields are marked </p>
-                                            </div>  --}}
                                             <div class="product_rating mb-10">
                                                 <h3>Your rating</h3>
                                                 <ul>
@@ -261,13 +256,14 @@
                                                 </form>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--product info end-->
+                @endif
             </div>
 
             <!--product area start-->

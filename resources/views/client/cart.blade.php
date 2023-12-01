@@ -43,11 +43,11 @@
                                         <tbody>
                                             @foreach ($cartItems as $item)
                                                 <tr>
-                                                    <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
-                                                    <td class="product_thumb"><a href="{{ route('client.product_details',$item->model->id) }}"><img src="{{asset('images/product_image/'.$item->model->image)}}" alt="{{ $item->model->name }}"></a></td>
-                                                    <td class="product_name"><a href="{{ route('client.product_details',$item->model->id) }}">{{ $item->model->name }}</a></td>
+                                                    <td class="product_remove"><a href="javascript:void(0)" onclick="removeItemFromCart('{{ $item->rowId }}')"><i class="fa fa-trash-o"></i></a></td>
+                                                    <td class="product_thumb"><a href="{{ route('client.product_details',$item->model->id) }}"><img src="{{asset('images/product_image/'.$item->model->image)}}" alt="{{ $item->model->title }}"></a></td>
+                                                    <td class="product_name"><a href="{{ route('client.product_details',$item->model->id) }}">{{ $item->model->title }}</a></td>
                                                     <td class="product-price">৳{{ $item->price }}</td>
-                                                    <td class="product_quantity"><label>Quantity</label> <input type="number" name="quantity" min="1" max="100" value="{{ $item->qty }}" type="number"></td>
+                                                    <td class="product_quantity"><label>Quantity</label> <input type="number" name="quantity" min="1" max="100" value="{{ $item->qty }}" data-rowid="{{ $item->rowId }}" onchange="updateQuantity(this)"></td>
                                                     <td class="product_total">৳{{ $item->subtotal() }}</td>
 
 
@@ -80,7 +80,7 @@
                                     </table>
                                 </div>
                                 <div class="cart_submit">
-                                    <button type="submit">update cart</button>
+                                    <a href="javascript:void(0)" onclick="clearCart()">clear cart</a>
                                 </div>
                             </div>
                         </div>
@@ -106,10 +106,10 @@
                                             <p>Subtotal</p>
                                             <p class="cart_amount">৳{{ Cart::instance('cart')->subtotal() }}</p>
                                         </div>
-                                        <div class="cart_subtotal ">
+                                        {{-- <div class="cart_subtotal ">
                                             <p>Shipping</p>
                                             <p class="cart_amount"><span>Flat Rate:</span> ৳{{ Cart::instance('cart')->tax() }}</p>
-                                        </div>
+                                        </div> --}}
                                         {{-- <a href="#">Calculate shipping</a> --}}
 
                                         <div class="cart_subtotal">
@@ -127,7 +127,7 @@
                     @else
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <h2>Your cary is empty !</h2>
+                                <h2>Your cart is empty !</h2>
                                 <h5 class="mt-3">Add Items to it now.</h5>
                                 <a href="{{ route('client.shop') }}" class="btn btn-warning mt-5">Shop Now</a>
                             </div>
@@ -140,4 +140,40 @@
     </div>
     <!--shopping cart area end -->
 
+    <form id="updateCartQty" action="{{ route('cart.update') }}" method="POST">
+        @csrf
+        @method('put')
+        <input type="hidden" id="rowId" name="rowId" />
+        <input type="hidden" id="quantity" name="quantity" />
+    </form>
+    <form id="deleteFromCart" action="{{ route('cart.remove') }}" method="post">
+        @csrf
+        @method('delete')
+        <input type="hidden" id="rowId_D" name="rowId">
+    </form>
+
+    <form id="clearCart" action="{{ route('cart.clear') }}" method="post">
+        @csrf
+        @method('delete')
+    </form>
 @endsection
+
+@push('scripts')
+    <script>
+        function updateQuantity(qty)
+        {
+            $('#rowId').val($(qty).data('rowid'));
+            $('#quantity').val($(qty).val());
+            $('#updateCartQty').submit();
+        }
+        function removeItemFromCart(rowId)
+        {
+            $('#rowId_D').val(rowId);
+            $('#deleteFromCart').submit();
+        }
+        function clearCart()
+        {
+            $('#clearCart').submit();
+        }
+    </script>
+@endpush

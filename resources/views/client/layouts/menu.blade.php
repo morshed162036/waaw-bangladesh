@@ -18,8 +18,8 @@
                         {{--  <div class="header_top_settings text-end">
                             <ul>
                                 <li><a href="{{ route('login.website') }}">login</a></li>
-                                <li><a href="{{ route('client.wishlist') }}">wishlist</a></li>
-                                <li><a href="{{ route('cart.index') }}">cart</a></li>
+                                <li><a href="{{ route('wishlist.list') }}">wishlist</a></li>
+                                <li><a href="{{ route('client.cart') }}">cart</a></li>
                                 <li>Hotline: <a href="tel:+0123456789">0123456789 </a></li>
                                 <li>Quality Guarantee Of Products</li>
                             </ul>
@@ -103,8 +103,8 @@
                             <div class="header_top_settings text-end">
                                 <ul>
                                     <li><a href="{{ route('login.website') }}">login</a></li>
-                                    <li><a href="{{ route('client.wishlist') }}">wishlist</a></li>
-                                    <li><a href="{{ route('cart.index') }}">cart</a></li>
+                                    <li><a href="{{ route('wishlist.list') }}">wishlist</a></li>
+                                    <li><a href="{{ route('client.cart') }}">cart</a></li>
                                     <li>Hotline: <a href="tel:+0123456789">0123456789 </a></li>
                                     <li>Quality Guarantee Of Products</li>
                                 </ul>
@@ -119,7 +119,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-2 col-md-3 col-4">
                             <div class="logo">
-                                <a href="{{route('client.home')}}"><img src="{{asset('client/img/logo/update.png')}}" width="206" height="20" alt=""></a>
+                                <a href="{{route('client.home')}}"><img src="{{asset('client/img/logo/waaw-logo-217x42_png.png')}}" width="206" height="20" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-12">
@@ -212,15 +212,15 @@
                         <div class="col-lg-3 col-md-7 col-6">
                             <div class="header_configure_area">
                                 <div class="header_wishlist">
-                                    <a href="{{route('client.wishlist')}}"><i class="ion-android-favorite-outline"></i>
-                                        <span class="wishlist_count">3</span>
+                                    <a href="{{route('wishlist.list')}}"><i class="ion-android-favorite-outline"></i>
+                                        <span class="wishlist_count" id="wishlist_count">{{ Cart::instance("wishlist")->content()->count() }}</span>
                                     </a>
                                 </div>
                                 <div class="mini_cart_wrapper">
-                                    <a href="javascript:void(0)">
+                                    <a href="{{route('cart.index')}}">
                                         <i class="fa fa-shopping-bag"></i>
-                                        <span class="cart_price"> 152.00 ৳<i class="ion-ios-arrow-down"></i></span>
-                                        <span class="cart_count">2</span>
+                                        {{-- <span class="cart_price"> 152.00 ৳<i class="ion-ios-arrow-down"></i></span> --}}
+                                        <span class="cart_count" id="cart_count">{{ Cart::instance('cart')->content()->count() }}</span>
 
                                     </a>
                                 </div>
@@ -231,9 +231,10 @@
                 <!--header middel end-->
 
                  <!--mini cart-->
-                <div class="mini_cart">
+                {{-- <div class="mini_cart">
                     <div class="cart_close">
                         <div class="cart_text">
+
                             <h3>cart</h3>
                         </div>
                         <div class="mini_cart_close">
@@ -283,7 +284,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> --}}
                 <!--mini cart end-->
 
                 <!--header bottom satrt-->

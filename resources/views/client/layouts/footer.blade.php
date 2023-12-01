@@ -75,9 +75,8 @@
                             <div class="footer_menu">
                                 <ul>
                                     <li><a href="{{route('client.account')}}">My Account</a></li>
-                                    <li><a href="{{route('cart.index')}}">Shopping Cart</a></li>
-                                    <li><a href="{{route('client.wishlist')}}">Wish List</a></li>
-
+                                    <li><a href="{{route('client.cart')}}">Shopping Cart</a></li>
+                                    <li><a href="{{route('wishlist.list')}}">Wish List</a></li>
                                     <li><a href="{{route('client.account')}}">Order History</a></li>
                                     {{-- <li><a href="#">International Orders</a></li> --}}
                                 </ul>
@@ -93,7 +92,7 @@
                                     <li><a href="{{route('client.account')}}">My Account</a></li>
                                     <li><a href="{{route('client.account')}}">Delivery Information</a></li>
                                     <li><a href="{{route('client.account')}}">Order History</a></li>
-                                    <li><a href="{{route('client.wishlist')}}">Wish List</a></li>
+                                    <li><a href="{{route('wishlist.list')}}">Wish List</a></li>
                                     {{-- <li><a href="#">Specials</a></li> --}}
                                 </ul>
                             </div>
@@ -258,7 +257,7 @@
     <!-- Main JS -->
     <script src="{{asset('client/js/main.js')}}"></script>
 
-
+@stack('scripts')
 
 
 
