@@ -311,7 +311,10 @@
 
                 {{-- @can('stock.index') --}}
                     <li class=" nav-item"><a href="{{ route('customer.index') }}"><i class="bx bx-store-alt">
-                        </i><span class="menu-title">customer</span></a>
+                        </i><span class="menu-title">Customer</span></a>
+                    </li>
+                    <li class=" nav-item"><a href="{{ route('order.list') }}"><i class="bx bx-store-alt">
+                        </i><span class="menu-title">Order</span></a>
                     </li>
                 {{-- @endcan --}}
 

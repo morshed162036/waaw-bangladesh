@@ -104,7 +104,7 @@
                                 <ul>
                                     <li><a href="{{ route('login.website') }}">login</a></li>
                                     <li><a href="{{ route('wishlist.list') }}">wishlist</a></li>
-                                    <li><a href="{{ route('client.cart') }}">cart</a></li>
+                                    <li><a href="{{ route('cart.index') }}">cart</a></li>
                                     <li>Hotline: <a href="tel:+0123456789">0123456789 </a></li>
                                     <li>Quality Guarantee Of Products</li>
                                 </ul>

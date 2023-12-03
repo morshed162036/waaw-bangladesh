@@ -13,7 +13,7 @@ class CartController extends Controller
 {
     public function index()
     {
-        $cartItems = FacadesCart::instance('cart')->content();
+        $cartItems = Cart::instance('cart')->content();
         //dd($cartItems);
         //return view('client.cart')->with(compact('cartItems'));
         return view('client.cart',['cartItems'=>$cartItems]);
@@ -41,4 +41,5 @@ class CartController extends Controller
         Cart::instance('cart')->destroy();
         return redirect()->route('cart.index');
     }
+
 }
