@@ -5,9 +5,10 @@ namespace App\Http\Controllers\client;
 use App\Http\Controllers\Controller;
 // use App\Models\Product;
 use Illuminate\Http\Request;
-use App\Models\Product;
 use App\Models\Catalogue;
+use App\Models\Order;
 use Cart;
+use Auth;
 class HomeController extends Controller
 {
     /**
@@ -18,16 +19,10 @@ class HomeController extends Controller
         $catalogues = Catalogue::where('status','Active')->get()->all();
 
         $new_arrivals = Product::with('stock','catalogue')->where('view_section','New_Arrival')->get()->all();
-
         $trendingProducts = Product::with(['unit', 'catalogue', 'category', 'brand'])->where('view_section', 'Trending_Products')->where('status', 'Active')->orderBy('created_at', 'desc')->limit(10)->get();
-
-        $featureProducts = Product::where('view_section', 'Feature_Products')
-        ->where('status', 'Active')->orderBy('created_at', 'desc') ->take(10) ->get();
+        $featureProducts = Product::where('view_section', 'Feature_Products')->where('status', 'Active')->orderBy('created_at', 'desc') ->take(10) ->get();
 
         return view('client.index')->with(compact('new_arrivals','catalogues','trendingProducts', 'featureProducts'));
-
-
-
 
     }
 
@@ -42,7 +37,8 @@ class HomeController extends Controller
     }
     public function account()
     {
-        return view('client.account');
+        $orderlist = Order::where('user_id',Auth::user()->id)->get()->all();
+        return view('client.account')->with(compact('orderlist'));
     }
 
     public function shop()
@@ -67,11 +63,37 @@ class HomeController extends Controller
         return view('client.cart');
     }
 
-    public function checkout()
+    public function checkout(Request $req)
     {
-        return view('client.checkout');
+        if(Auth::check())
+        {
+            $this->setAmountForCheckout();
+            return view('client.checkout');
+        }
+        else
+        {
+            $req->session()->put('cart','attach');
+            return redirect()->route('login.website');
+        }
+
     }
 
+    public function setAmountForCheckout()
+    {
+        if(!Cart::instance('cart')->count() > 0)
+        {
+            session()->forget('checkout');
+            return;
+        }
+        else{
+            session()->put('checkout',[
+            'discount' => 0,
+            'subtotal' => Cart::instance('cart')->subtotal(),
+            'total' => Cart::instance('cart')->total(),
+        ]);
+        }
+
+    }
     public function contuct()
     {
         return view('client.contuct');

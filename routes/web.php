@@ -11,6 +11,7 @@ use App\Http\Controllers\server\CategoryController;
 use App\Http\Controllers\server\CustomerController;
 use App\Http\Controllers\server\ProductController;
 use App\Http\Controllers\server\StockController;
+use App\Http\Controllers\server\OrderController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,19 +46,13 @@ Route::delete('/wishlist/remove',[WishlistController::class,"removeProductFromwi
 Route::delete('/wishlist/clear',[WishlistController::class,"clearWishlist"])->name('wishlist.clear');
 Route::post('/wishlist/clear',[WishlistController::class,'moveToCart'])->name('wishlist.move.to.cart');
 
-//shop
-
-// Route::get('/shop', [ShopController::class, 'index'])->name('shop.index');
-// Route::get('/shop/catalog/{slug}', [ShopController::class, 'showByCatalog'])->name('shop.catalog');
-
-
+Route::post('/place-order',[OrderController::class,'placeOrder'])->name('place.order');
 Route::prefix('/')->group(function(){
 
     Route::match(['get', 'post'], 'login',[AdminController::class,'login'])->name('admin.login');
     Route::group(['middleware'=>['user']],function(){
 
         Route::get('logout',[AdminController::class,'logout'])->name('admin.logout');
-        Route::get('logout', [AdminController::class, 'logout'])->name('admin.logout');
         Route::post('register', [AdminController::class, 'store'])->name('customer.register');
         Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
 
@@ -69,6 +64,7 @@ Route::prefix('/')->group(function(){
         Route::post('update-product-status',[ProductController::class,'updateProductStatus'])->name('updateProductStatus');
         Route::resource('stock', StockController::class);
         Route::resource('customer', CustomerController::class);
+        Route::get('order-list',[OrderController::class,'orderTable'])->name('order.list');
     });
 
 });
