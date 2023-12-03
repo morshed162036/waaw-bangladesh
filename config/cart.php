@@ -11,7 +11,7 @@ return [
     | Taxable interface and use the HasTax trait.
     |
     */
-    'tax' =>0;
+    'tax' =>0,
     /*
     |--------------------------------------------------------------------------
     | Shoppingcart database settings

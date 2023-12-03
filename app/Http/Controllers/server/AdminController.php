@@ -61,9 +61,17 @@ class AdminController extends Controller
         // $customer->street_address = $request->street_address;
         // $customer->city = $request->$request->city;
         $customer->save();
+        Auth::login($user);
+        if (session()->get('cart') == 'attach') {
+            session()->forget('cart');
+            return redirect()->route('client.checkout');
+        }
+        else
+        {
+            return redirect(route('client.account'));
+        }
 
-
-        return redirect()->back();
+        //return redirect()->route('login.website');
 
     }
 
@@ -116,6 +124,10 @@ class AdminController extends Controller
 
             if (Auth::guard('web')->attempt(['email' => $data['email'], 'password' => $data['password'], 'status' => 'Active', 'type' => 'Customer'])) {
                 // dd('ok');
+                if (session()->get('cart') == 'attach') {
+                    session()->forget('cart');
+                    return redirect()->route('client.checkout');
+                }
                 return redirect(route('client.account'));
             } else {
                 return redirect()->back()->with('error', 'Invalid Email or Password');
@@ -126,8 +138,17 @@ class AdminController extends Controller
         return view('server.login');
     }
     public function logout(){
-        Auth::guard('web')->logout();
-        return redirect('login');
+        if(Auth::user()->type == "Customer")
+        {
+            Auth::guard('web')->logout();
+            return redirect()->route('login.website');
+        }
+        else
+        {
+            Auth::guard('web')->logout();
+            return redirect('login');
+        }
+
     }
     public function dashboard(){
         // $admin = User::where('type','Admin')->where('designation_id','!=','0')->get()->count();

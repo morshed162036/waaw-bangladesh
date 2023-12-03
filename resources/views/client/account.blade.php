@@ -34,7 +34,7 @@
                                     {{--  <li><a href="#downloads" data-bs-toggle="tab" class="nav-link">Downloads</a></li>  --}}
                                     <li><a href="#address" data-bs-toggle="tab" class="nav-link">Addresses</a></li>
                                     <li><a href="#account-details" data-bs-toggle="tab" class="nav-link">Account details</a></li>
-                                    <li><a href="#" class="nav-link">logout</a></li>
+                                    <li><a href="{{ route('admin.logout') }}" class="nav-link">logout</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -59,20 +59,17 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>May 10, 2022</td>
-                                                    <td><span class="success">Completed</span></td>
-                                                    <td>$25.00 for 1 item </td>
-                                                    <td><a href="#" class="view">view</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>May 10, 2022</td>
-                                                    <td>Processing</td>
-                                                    <td>$17.00 for 1 item </td>
-                                                    <td><a href="#" class="view">view</a></td>
-                                                </tr>
+                                                @if ($orderlist)
+                                                    @foreach ($orderlist as $order)
+                                                    <tr>
+                                                        <td>{{ $order->id }}</td>
+                                                        <td>{{ $order->created_at }}</td>
+                                                        <td><span class="success">{{ $order->status }}</span></td>
+                                                        <td>{{ $order->total }}</td>
+                                                        <td><a href="#" class="view">view</a></td>
+                                                    </tr>
+                                                    @endforeach
+                                                @endif
                                             </tbody>
                                         </table>
                                     </div>
@@ -121,17 +118,14 @@
                                         <span><strong>Country:</strong> USA</span>
                                     </address>
                                 </div>
-                                <div class="tab-pane fade" id="account-details">
+                                {{-- <div class="tab-pane fade" id="account-details">
                                     <h3>Account details </h3>
                                     <div class="login">
                                         <div class="login_form_container">
                                             <div class="account_login_form">
                                                 <form action="#">
                                                     <p>Already have an account? <a href="#">Log in instead!</a></p>
-                                                    {{--  <div class="input-radio">
-                                                        <span class="custom-radio"><input type="radio" value="1" name="id_gender"> Mr.</span>
-                                                        <span class="custom-radio"><input type="radio" value="1" name="id_gender"> Mrs.</span>
-                                                    </div> <br>  --}}
+
                                                     <label>First Name</label>
                                                     <input type="text" name="first-name">
                                                     <label>Last Name</label>
@@ -142,19 +136,6 @@
                                                     <input type="password" name="user-password">
                                                     <label>Birthdate</label>
                                                     <input type="text" placeholder="MM/DD/YYYY" value="" name="birthday">
-                                                    {{--  <span class="example">
-                                                      (E.g.: 05/31/1970)
-                                                    </span>  --}}
-                                                    <br>
-                                                    {{--  <span class="custom_checkbox">
-                                                        <input type="checkbox" value="1" name="optin">
-                                                        <label>Receive offers from our partners</label>
-                                                    </span>  --}}
-                                                    <br>
-                                                    {{--  <span class="custom_checkbox">
-                                                        <input type="checkbox" value="1" name="newsletter">
-                                                        <label>Sign up for our newsletter<br><em>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</em></label>
-                                                    </span>  --}}
                                                     <div class="save_button primary_btn default_button">
                                                         <button type="submit">Save</button>
                                                     </div>
@@ -162,7 +143,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
