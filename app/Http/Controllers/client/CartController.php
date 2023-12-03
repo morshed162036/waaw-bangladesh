@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\client;
 
 use App\Http\Controllers\Controller;
-
 use Illuminate\Http\Request;
 use Cart;
 use App\Models\Product;
@@ -13,7 +12,7 @@ class CartController extends Controller
 {
     public function index()
     {
-        $cartItems = FacadesCart::instance('cart')->content();
+        $cartItems = Cart::instance('cart')->content();
         //dd($cartItems);
         //return view('client.cart')->with(compact('cartItems'));
         return view('client.cart',['cartItems'=>$cartItems]);

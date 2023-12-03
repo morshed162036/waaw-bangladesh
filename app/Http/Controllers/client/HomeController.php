@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\client;
 
 use App\Http\Controllers\Controller;
-use App\Models\Product;
+// use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Catalogue;
@@ -16,12 +16,19 @@ class HomeController extends Controller
     public function index()
     {
         $catalogues = Catalogue::where('status','Active')->get()->all();
+
         $new_arrivals = Product::with('stock','catalogue')->where('view_section','New_Arrival')->get()->all();
-        return view('client.index')->with(compact('new_arrivals','catalogues','trendingProducts'));
 
         $trendingProducts = Product::with(['unit', 'catalogue', 'category', 'brand'])->where('view_section', 'Trending_Products')->where('status', 'Active')->orderBy('created_at', 'desc')->limit(10)->get();
 
-        
+        $featureProducts = Product::where('view_section', 'Feature_Products')
+        ->where('status', 'Active')->orderBy('created_at', 'desc') ->take(10) ->get();
+
+        return view('client.index')->with(compact('new_arrivals','catalogues','trendingProducts', 'featureProducts'));
+
+
+
+
     }
 
     public function about()

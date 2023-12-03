@@ -39,7 +39,7 @@ class AdminController extends Controller
         ];
 
         $this->validate($request, $rules);
-
+        //   dd($request->all());
         $user = New User();
         $user->name = $request-> name;
         $user->email = $request-> email;
@@ -61,9 +61,7 @@ class AdminController extends Controller
         // $customer->street_address = $request->street_address;
         // $customer->city = $request->$request->city;
         $customer->save();
-
-
-        return redirect()->back();
+        return redirect('/user_login');
 
     }
 
@@ -118,7 +116,7 @@ class AdminController extends Controller
                 // dd('ok');
                 return redirect(route('client.account'));
             } else {
-                return redirect()->back()->with('error', 'Invalid Email or Password');
+                return redirect()->back();
             }
 
 
