@@ -25,7 +25,7 @@ use App\Http\Controllers\server\OrderController;
 
 
 Route::get('/', [HomeController::class, 'index'])->name('client.home');
-Route::get('/shop', [HomeController::class, 'shop'])->name('client.shop');
+Route::get('/shop/{slug?}', [HomeController::class, 'shop'])->name('client.shop');
 Route::get('/product-details/{id?}', [HomeController::class, 'product_details'])->name('client.product_details');
 Route::get('/cart-wishlist-count',[HomeController::class,'getCartAndWishlistCount'])->name('cart.wishlist.count');
 Route::get('/cart-add', [HomeController::class, 'cart'])->name('client.cart');
@@ -45,6 +45,7 @@ Route::post('/wishlist/add',[WishlistController::class,"addProductToWishlist"])-
 Route::delete('/wishlist/remove',[WishlistController::class,"removeProductFromwishlist"])->name('wishlist.remove');
 Route::delete('/wishlist/clear',[WishlistController::class,"clearWishlist"])->name('wishlist.clear');
 Route::post('/wishlist/clear',[WishlistController::class,'moveToCart'])->name('wishlist.move.to.cart');
+
 Route::post('/place-order',[OrderController::class,'placeOrder'])->name('place.order');
 Route::prefix('/')->group(function(){
 

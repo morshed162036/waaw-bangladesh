@@ -77,6 +77,7 @@
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children active"> <a href="{{ route('client.shop') }}">Wedding</a></li>
+
                             </ul>
                         </div>
                     </div>

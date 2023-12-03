@@ -115,7 +115,7 @@
                                     <div class="product_variant quantity">
                                         <label>quantity</label>
                                         <input min="1" max="100" value="1" type="number" name="quantity">
-                                        <input type="hidden" name="id" value="{{ $product->id }}">
+                                         <input type="hidden" name="id" value="{{ $product->id }}">
                                         <button class="button" type="submit">add to cart</button>
 
                                     </div>
